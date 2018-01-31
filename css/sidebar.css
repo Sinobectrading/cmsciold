@@ -14,10 +14,13 @@
 .has-children {
   border-bottom: 1px solid #ddd;
 }
+#work {
+  padding-bottom: 35px
+}
 @media only screen and (min-width: 768px) {
   .cd-main-content .content-wrapper {
     margin-left: 110px;
-    padding-top: 55px;
+    padding-top: 35px;
   }
   .cd-main-content .content-wrapper h1 {
     padding: 4em 0;
@@ -455,8 +458,8 @@ Sidebar
     float: left;
     top: auto;
     width: 110px;
-    min-height: 100vh;
-    padding-top: 20px;
+/*    min-height: 100vh;
+*/    padding-top: 20px;
     /* reset style */
     visibility: visible;
     opacity: 1;
@@ -474,15 +477,18 @@ Sidebar
     padding: 0;
   }
   .cd-side-nav .cd-label {
-    /* remove labels on minified version of the sidebar */
-    display: none;
+    /* remove labels on minified version of the sidebar 
+    display: none;*/
   }
   .cd-side-nav a {
     font-size: 1.2rem;
     text-align: center;
   }
+  .work ul li {
+    margin-top: 0
+  }
   .cd-side-nav > ul > li > a {
-    padding: calc(2.2em + 24px) 0 2.4em;
+    padding: 1.4em 0;
   }
   .cd-side-nav > ul > li > a::before {
     left: 50%;
@@ -554,6 +560,9 @@ Sidebar
   .cd-side-nav .cd-label {
     display: block;
     padding: 1em 18px;
+    cursor: default;
+    font-size: 14px;
+    color: #ec3330;
   }
   .cd-side-nav .action-btn {
     text-align: left;

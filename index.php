@@ -33,7 +33,7 @@ canvas{
 	<!--banner-->
 	<div  id="home" class="banner">
 		<div class="banner-info info">
-			<canvas id="nokey">
+			<canvas id="nokey" class="hidden-xs hidden-sm">
  	 		</canvas>
  	 		<div id="ind" class="clearfix">
 	  			<div class="banner-top">
@@ -83,8 +83,20 @@ canvas{
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="alumnium.php">Alumnium</a></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="stainless.php">Stainless</a></li>
+										<li role="presentation"><a role="menuitem"  href="standard.php">Standard Extrusion</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Customized Extrusuon</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Plates&Sheets</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Canopy</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Flooring</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Hardware</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Finished Railing</a></li>
+									 
+										<li role="presentation"><a role="menuitem"  href="steel.php">Shower Door</a></li>
+										<li role="presentation"><a role="menuitem"  href="steel.php">Steel</a></li>
+									 
+								 
+										<li role="presentation"><a role="menuitem"  href="steel.php">Others</a></li>
 									</ul>
 								</li>
 								<li class="menu-item"><a href="contact.php" class="menu-link">Contact</a></li>
@@ -102,12 +114,12 @@ canvas{
 	<!--welcome-->
 	<div class="welcome" id="about">
 		<div class="row">
-<!-- 			<h2 class="title wow fadeIn animated" data-wow-delay=".5s" id="welcome">Welcome To Canadian Metal Service Center Inc</h2>
- -->			<div class="flexcenter">
-				<div class="col-md-7 col-xs-12 welcome-left wow slideInLeft animated welcome" data-wow-delay=".5s">
+<!-- 		<h2 class="title wow fadeIn animated" data-wow-delay=".5s" id="welcome">Welcome To Canadian Metal Service Center Inc</h2>
+ -->		<div class="flexcenter" id="hpart1">
+				<div class="col-lg-7 col-md-6 col-sm-6 col-xs-12 wow slideInLeft animated welcome" data-wow-delay=".5s">
 					<img src="images/office.jpg" alt=""/>
 				</div>
-				<div class="col-md-5 col-xs-12 welcome-right wow slideInRight animated welcome" data-wow-delay=".5s" >
+				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome" data-wow-delay=".5s" >
 					<!-- <h5>01</h5> -->
 					<div class="col-md-3"><h4>About Us</h4></div>
 					<div class="col-md-9"><p>Established in 2002, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
@@ -115,8 +127,9 @@ canvas{
 				</div>
 			</div>
 			<div class="clearfix"> </div>
-			<div class="col-md-12 col-xs-12 welcome-bottom-left wow slideInLeft animated flexcenter" data-wow-delay=".5s" id="srvs">
-				<div class="col-md-5 welcome" id="ourservice">
+
+			<div class="flexcenter" id="srvs">
+				<div class="col-lg-5 col-md-6  col-sm-6 welcome wow slideInLeft animated" id="ourservice"  data-wow-delay=".5s" >
 					<div class="col-md-4">
 						<h4>What We do</h4>
 					</div>
@@ -125,73 +138,90 @@ canvas{
 						</p>
 					</div>
 				</div>
-				<div class="col-md-7 welcome">
+				<div class="col-lg-7 col-md-6  col-sm-6 welcome wow slideInRight animated"  data-wow-delay=".5s" >
 					<img src="images/stainless.jpg" alt=""/>
 				</div>
 			</div>
-			<div class="col-md-12 col-xs-12 welcome-bottom-right wow slideInRight animated" data-wow-delay="1s" id="hpart3">
-				<div class="flexcenter">
-					<div class="welcome-grid-left welcome col-md-7">
-						<img src="images/srv.jpg" alt=""/>
-					</div>
-					<div class="welcome-grid-right welcome col-md-5">
-						<!-- <h5>03</h5> -->
-						<div class="col-md-4"><h4>Our Service</h4></div>
-						<div class="col-md-8">
-						<p> We can help and we commit six factors to our customers:
-							<li>Prompt reply</li>
-							<li>Competitive price</li>
-							<li>Good quality</li>
-							<li>In time delivery</li>
-							<li>Customer service</li>
-							<li>Technical solutions</li>
-						</p>
-						</div>
+
+			<div class="clearfix"> </div>
+
+
+			<div class="flexcenter" id="hpart3">
+				<div class=" welcome col-lg-7 col-md-6 col-sm-6 wow slideInLeft animated" data-wow-delay=".5s">
+					<img src="images/srv.jpg" alt=""/>
+				</div>
+				<div class=" welcome col-lg-5 col-md-6 col-sm-6 wow slideInRight animated" data-wow-delay=".5s">
+					<!-- <h5>03</h5> -->
+					<div class="col-md-4"><h4>Our Service</h4></div>
+					<div class="col-md-8">
+					<p> We can help and we commit six factors to our customers:
+						<li>Prompt reply</li>
+						<li>Competitive price</li>
+						<li>Good quality</li>
+						<li>In time delivery</li>
+						<li>Customer service</li>
+						<li>Technical solutions</li>
+					</p>
 					</div>
 				</div>
-				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
+ 
 		</div>
 	</div>
 	<!--//welcome-->
 	<!--services-->
 	<div class="welcome services" id="services">
 		<div class="container">
+		<div class="row">
 			<h3 class="title wow fadeInDown animated" data-wow-delay="1.5s">Our Products</h3>
 			<div class="services-info">
-				<div class="col-md-4 services-grids wow zoomIn animated" data-wow-delay=".5s">
+				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
 					<a href="alumnium.php">
-						<div class="service">
-							<div class="icon-holder">
-								<span class="glyphicon glyphicon-book"></span>
-							</div>
-							<h4 class="heading">Aluminum</h4>
-							<p class="text">Plates ● Sheets ● Coils ● Extrusions</p>
-						</div>
+						<figure class="effect-marley">
+						<img src="images/al.jpg" alt="al"/>
+						<figcaption>
+							<div class="temp">
+								<h2>Aluminum&nbsp;<span>Products</span></h2>
+								<p>Plates ● Sheets ● Coils ● Extrusions</p>
+   							</div>
+ 						</figcaption>
 					</a>
 				</div>
-				<div class="col-md-4 services-grids wow zoomIn animated" data-wow-delay=".5s">
-					<div class="service">
-						<a href="stainless.php">
-						<div class="icon-holder">
-							<span class="glyphicon glyphicon-cog"></span>
-						</div>
-						<h4 class="heading">Stainless</h4>
-						<p class="text">Plates ● Sheets ● Colis ● Tubing</p>
-						</a>
-					</div>
+
+
+				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
+					<a href="alumnium.php">
+						<figure class="effect-marley">
+						<img src="images/steel.jpg" alt="al"/>
+						<figcaption>
+							<div class="temp">
+								<h2>Steel&nbsp;<span>Products</span></h2>
+								<p>Plates ● Sheets ● Colis ● Tubing</p>
+   							</div>
+ 						</figcaption>
+					</a>
 				</div>
-				<div class="col-md-4 services-grids wow zoomIn animated" data-wow-delay=".5s">
-					<div class="service">
-						<div class="icon-holder">
-							<span class="glyphicon glyphicon-road"></span>
-						</div>
-						<h4 class="heading">&nbsp;&nbsp;Metal</h4>
-						<p class="text"> </p>
-					</div>
+
+
+
+				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
+					<a href="alumnium.php">
+						<figure class="effect-marley">
+						<img src="images/railing.jpg" alt="al"/>
+						<figcaption>
+							<div class="temp">
+								<h2>Other&nbsp;<span>Products</span></h2>
+								<p>Glass ● Plastic ● Floor ● Painting</p>
+   							</div>
+ 						</figcaption>
+					</a>
 				</div>
+
+
+				 
 				<div class="clearfix"> </div>
+			</div>
 			</div>
 		</div>
 	</div>

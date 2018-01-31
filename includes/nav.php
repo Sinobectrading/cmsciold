@@ -1,7 +1,7 @@
 <div class="banner-info" id="nav">
 	<div class="banner-top">
 		<div class="container">
-			<div class="col-md-6 banner-top-left wow fadeIn animated" data-wow-delay=".5s">
+			<div class="col-md-6 banner-top-left wow fadeIn animated hidden-xs" data-wow-delay=".5s">
 				<ul class="social-icons">
 					<li><a href="#"> </a></li>
 					<li><a href="#" class="fb"> </a></li>
@@ -9,10 +9,10 @@
 					<li><a href="#" class="dott"> </a></li>
 				</ul>
 			</div>
-			<div class="col-md-1 midd">
+			<div class="col-md-1 col-xs-3 midd">
 				<a href="index.php"><img class="wow fadeIn animated" data-wow-delay=".5s" src="images/logows.png"></a>
 			</div>
-			<div class="col-md-5 banner-top-right wow fadeIn animated" data-wow-delay=".5s">
+			<div class="col-md-5 col-xs-9 banner-top-right wow fadeIn animated" data-wow-delay=".5s">
 				<p><span class="glyphicon glyphicon-earphone"></span> +1 (905) 660-4488 </p>
 			</div>
 			<div class="clearfix"> </div>
@@ -39,9 +39,18 @@
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="alumnium.php">Alumnium</a></li>
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="stainless.php">Stainless</a></li>
-							</ul>
+								<li role="presentation"><a role="menuitem"  href="standard.php">Standard Extrusion</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Customized Extrusuon</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Plates&Sheets</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Canopy</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Flooring</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Hardware</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Finished Railing</a></li>
+ 								<li role="presentation"><a role="menuitem"  href="steel.php">Shower Door</a></li>
+								<li role="presentation"><a role="menuitem"  href="steel.php">Steel</a></li>
+ 								<li role="presentation"><a role="menuitem"  href="steel.php">Others</a></li>
+ 							</ul>
 						</li>
 					 
 					 

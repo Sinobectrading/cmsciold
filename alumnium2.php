@@ -30,10 +30,8 @@
 	padding-bottom: 30px;
 }
 #cnt div h4 {
-	font-size: 19px;
-	font-weight: 700;
-	padding-top: 28px;
-	color: #787878;
+	font-size: 18px;
+	font-weight: 500
 }
 #cnt h1 {
 	padding-top: 40px;
@@ -59,7 +57,7 @@
 	<div class="container">
 		<div class="work-info">
 			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated" data-wow-delay=".5s">
-				<h3 class="title"><a href="alumnium.php">Aluminum</a></h3>
+				<h3 class="title"><a href="alumnium.php">Alumnium</a></h3>
 				<p></p>
 				 
 			</div>

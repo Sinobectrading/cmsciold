@@ -84,8 +84,7 @@ canvas{
 									</a>
 									<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
 										<li role="presentation"><a role="menuitem"  href="standard.php">Standard Extrusion</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Customized Extrusuon</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
+ 										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
 										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Plates&Sheets</a></li>
 										<li role="presentation"><a role="menuitem"  href="steel.php">Canopy</a></li>
 										<li role="presentation"><a role="menuitem"  href="steel.php">Flooring</a></li>
@@ -174,16 +173,16 @@ canvas{
 	<div class="welcome services" id="services">
 		<div class="container">
 		<div class="row">
-			<h3 class="title wow fadeInDown animated" data-wow-delay="1.5s">Our Products</h3>
+			<h4 class="title wow fadeInDown animated" data-wow-delay="1.5s">Our Products</h4>
 			<div class="services-info">
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
 					<a href="alumnium.php">
-						<figure class="effect-marley">
+						<figure class="effect-apollo">
 						<img src="images/al.jpg" alt="al"/>
 						<figcaption>
 							<div class="temp">
 								<h2>Aluminum&nbsp;<span>Products</span></h2>
-								<p>Plates ● Sheets ● Coils ● Extrusions</p>
+								<p>● Plates <br>● Sheets <br>● Coils <br>● Extrusions</p>
    							</div>
  						</figcaption>
 					</a>
@@ -192,12 +191,12 @@ canvas{
 
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
 					<a href="alumnium.php">
-						<figure class="effect-marley">
+						<figure class="effect-apollo">
 						<img src="images/steel.jpg" alt="al"/>
 						<figcaption>
 							<div class="temp">
 								<h2>Steel&nbsp;<span>Products</span></h2>
-								<p>Plates ● Sheets ● Colis ● Tubing</p>
+								<p>● Stainless <br>● Galvanized <br>● Carbon steel</p>
    							</div>
  						</figcaption>
 					</a>
@@ -207,12 +206,12 @@ canvas{
 
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
 					<a href="alumnium.php">
-						<figure class="effect-marley">
+						<figure class="effect-apollo">
 						<img src="images/railing.jpg" alt="al"/>
 						<figcaption>
 							<div class="temp">
 								<h2>Other&nbsp;<span>Products</span></h2>
-								<p>Glass ● Plastic ● Floor ● Painting</p>
+								<p>● Glass <br>● Plastic <br>● Painting</p>
    							</div>
  						</figcaption>
 					</a>

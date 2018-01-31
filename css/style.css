@@ -698,6 +698,11 @@ h3.title,h2.title{
 /*    margin: 1em 0 .3em;
 */    letter-spacing: 3px;
 }
+#services h4 {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em
+}
 #aboutus h4 {
     margin-top: 0em;
 }
@@ -713,6 +718,9 @@ h3.title,h2.title{
 }
 #hpart3 .welcome-grid-left {
     padding: 0px
+}
+#hpart1 .slideInRight {
+    padding: 7em 2em ;
 }
 #hpart3 .slideInRight {
     height: auto;
@@ -745,10 +753,10 @@ h3.title,h2.title{
 /*--//welcome--*/
 /*--services--*/
 #services {
-    padding-top: 8em
+    /*padding-top: 8em*/
 }
 .services{
-	background: #e3e3e3;
+	background: #e1e8f0;
 /*	padding-bottom: 13em;*/
 }
 .services h3.title{

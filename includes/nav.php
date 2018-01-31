@@ -40,8 +40,7 @@
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
 								<li role="presentation"><a role="menuitem"  href="standard.php">Standard Extrusion</a></li>
-								<li role="presentation"><a role="menuitem"  href="steel.php">Customized Extrusuon</a></li>
-								<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
+ 								<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
 								<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Plates&Sheets</a></li>
 								<li role="presentation"><a role="menuitem"  href="steel.php">Canopy</a></li>
 								<li role="presentation"><a role="menuitem"  href="steel.php">Flooring</a></li>

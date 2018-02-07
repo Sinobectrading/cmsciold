@@ -66,20 +66,41 @@
 				 <main class="cd-main-content">
 					<nav class="cd-side-nav">
 						<ul id="product">
-							<li class="cd-label">Other Products</li>
-							<li class="has-children overview">
-								<a class="ajaxcnt">Aluminum Casting</a>
- 							</li>
+							<li class="cd-label">Plates & Sheets</li>
   							<li class="has-children overview">
-								<a class="ajaxcnt">Glass</a>
+								<a class="ajaxcnt">Alloy 1xxx</a>
  							</li>
 
  							<li class="has-children overview">
-								<a class="ajaxcnt">Plastic</a>
+								<a class="ajaxcnt">Alloy 2XXX</a>
  							</li>
 
  							<li class="has-children overview">
-								<a class="ajaxcnt">Painting</a>
+								<a class="ajaxcnt">Alloy 3XXX</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Composite Panel</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Alloy 5XXX</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Alloy 6XXX</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Alloy 7XXX</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Alloy 8XXX</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Painted Coil</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Cold Rolled Coil</a>
+ 							</li>
+ 							<li class="has-children overview">
+								<a class="ajaxcnt">Other</a>
  							</li>
 						</ul>
 					</nav>

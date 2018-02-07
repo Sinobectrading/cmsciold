@@ -6,6 +6,7 @@
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='//fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400" rel="stylesheet">
@@ -16,3 +17,8 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/set1.css">
 <link rel="stylesheet" href="css/set2.css">
+<link rel="stylesheet" href="css/login.css">
+<!--[if IE]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+ 

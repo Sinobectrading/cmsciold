@@ -66,8 +66,8 @@
 				 <main class="cd-main-content">
 					<nav class="cd-side-nav">
 						<ul id="product">
-<!-- 							<li class="cd-label">Main</li>
- -->							<li class="has-children overview">
+<!-- 						<li class="cd-label">Main</li>
+ -->						<li class="has-children overview">
 								<a>Standard Extrusion <img src="img/dr.png" alt=""></a>
 								<ul>
 									<li><a class="ajaxcnt">Round Extrusion</a></li>

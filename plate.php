@@ -30,8 +30,10 @@
 	padding-bottom: 30px;
 }
 #cnt div h4 {
-	font-size: 18px;
-	font-weight: 500
+	font-size: 19px;
+	font-weight: 700;
+	padding-top: 28px;
+	color: #787878;
 }
 #cnt h1 {
 	padding-top: 40px;
@@ -56,9 +58,9 @@
 <div class="welcome work" id="work">
 	<div class="container">
 		<div class="work-info">
-			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated" data-wow-delay=".5s">
-				<!-- <h3 class="title"><a href="alumnium.php">Steel</a></h3> -->
-				<p></p>
+			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated hidden-xs" data-wow-delay=".5s">
+<!-- 				<h4 class="title"><a href="standard.php">Aluminum Standard Extrusion</a></h4>
+ -->				<p></p>
 				 
 			</div>
 
@@ -66,21 +68,37 @@
 				 <main class="cd-main-content">
 					<nav class="cd-side-nav">
 						<ul id="product">
-							<li class="cd-label">Other Products</li>
-							<li class="has-children overview">
-								<a class="ajaxcnt">Aluminum Casting</a>
- 							</li>
-  							<li class="has-children overview">
-								<a class="ajaxcnt">Glass</a>
- 							</li>
-
+ 							<li class="cd-label">Plates & Sheets</li>
  							<li class="has-children overview">
-								<a class="ajaxcnt">Plastic</a>
+								<a class="ajaxcnt">Alloy 1xxx</a>
  							</li>
-
- 							<li class="has-children overview">
-								<a class="ajaxcnt">Painting</a>
- 							</li>
+  							<li class="has-children comments">
+								<a class="ajaxcnt">Alloy 2XXX</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Alloy 3XXX</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Composite Panel</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Alloy 5XXX</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Alloy 6XXX</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Alloy 7XXX</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Alloy 8XXX</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Painted Coil</a>
+							</li>
+							<li class="has-children comments">
+								<a class="ajaxcnt">Cold Rolled Coil</a>
+							</li>
 						</ul>
 					</nav>
 

@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>CMSCI</title>
-
-<?php include('includes/header.php');  ?>
+ <?php include('includes/header.php');
+	$current = "index";  ?>
 <style>
 body {
 	overflow-x: hidden;
@@ -11,12 +11,22 @@ body {
 canvas{
  
 }	
+.dropdown-menu {
+    background-color: rgba(177,177,177,.8);
+    
+    margin-top: 0px;
+    -webkit-box-shadow: -1px 1px 1px rgba(240,89,89,0.8);
+    box-shadow: 0px 1px 1px rgba(240,89,89,0.8);
+    }
 #nokey {
 	position: absolute;
 }
 .flexcenter {
 	display: flex;
 	/*align-items: center;*/
+}
+.flexcenter > div {
+	padding: 0px
 }
 .welcome-left {
 	padding: 0px;
@@ -26,89 +36,66 @@ canvas{
 	display: flex;
 	align-items: center
 }
-
+#home.homepage .navbar   {
+	background: rgba(177,177,177,.8) ! important;
+} 
+#home .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:visited,
+#home .dropdown-menu li a {
+	color: #fff;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { /* IE10+ CSS styles go here */
+     #logo .logowrap span, #logo .logowrap img {
+     color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    }
+}
+/*----MS Edge Browser CSS Start----*/
+@supports (-ms-accelerator:auto) {
+     #logo .logowrap span, #logo .logowrap img {
+     color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    }
+}
+/*----MS Edge Browser CSS End----*/
+@supports (-ms-ime-align:auto) {
+     #logo .logowrap span, #logo .logowrap img {
+     color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    }
+}
 </style>
 </head>
 <body>
-	<!--banner-->
-	<div  id="home" class="banner">
-		<div class="banner-info info">
-			<canvas id="nokey" class="hidden-xs hidden-sm">
- 	 		</canvas>
- 	 		<div id="ind" class="clearfix">
-	  			<div class="banner-top">
-					<div class="container">
-						<div class="col-md-6 banner-top-left wow fadeIn animated" data-wow-delay=".5s">
-							<ul class="social-icons">
-								<li><a href="#"> </a></li>
-								<li><a href="#" class="fb"> </a></li>
-								<li><a href="#" class="in"> </a></li>
-								<li><a href="#" class="dott"> </a></li>
-							</ul>
-						</div>
-						<div class="col-md-6 banner-top-right wow fadeIn animated" data-wow-delay=".5s">
-							<p><span class="glyphicon glyphicon-earphone"></span> +1 (905) 660-4448 </p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-
-
-				<div class="banner-text" id="logo">
-					<div class="wow fadeIn animated logowrap" data-wow-delay="1s">
-						<a href="index.html">
-							<img src="images/logos.png"><span class="logof">C</span><span class="logof">M</span><span class="logof">S</span><span class="logof">C</span><span class="logof">I</span>
-						</a>
-					</div>
-					<p class="wow faedIn animated" data-wow-delay="3s">World Wide Metal Distributor</p>
+<!--banner-->
+<div id="home" class="banner homepage">
+	<?php include('includes/nav.php'); ?>
+	<div class="banner-info info">
+		<canvas id="nokey" class="hidden-xs hidden-sm">
+ 		</canvas>
+ 		<div id="ind" class="clearfix">
+			<div class="banner-top">
+				<div class="container">	 
+					<div class="clearfix"> </div>
 				</div>
 			</div>
 
- 			<!--navigation-->
-			<div class="top-nav wow">
-				<div class="container">
-					<div class="navbar-header logo">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							Menu
-						</button>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<div class="menu">
-							<ul class="nav navbar">
-								<!-- <li><img src="images/Logows.png"></li> -->
-								<li class="menu-item menu-item-current"><a href="index.php" class="menu-link">Home</a></li>
-								<li <?php if($current == "products") echo "class=\"menu-item menu-item-current\""; else echo "class=\"menu-item\"";?>    >
-									<a data-toggle="dropdown"  class="menu-link">Products
-										<span class="caret"></span>
-									</a>
-									<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-										<li role="presentation"><a role="menuitem"  href="standard.php">Standard Extrusion</a></li>
- 										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Casting</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Aluminum Plates&Sheets</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Canopy</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Flooring</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Hardware</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Finished Railing</a></li>
-									 
-										<li role="presentation"><a role="menuitem"  href="steel.php">Shower Door</a></li>
-										<li role="presentation"><a role="menuitem"  href="steel.php">Steel</a></li>
-									 
-								 
-										<li role="presentation"><a role="menuitem"  href="steel.php">Others</a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a href="contact.php" class="menu-link">Contact</a></li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
-						
-					</div>
+
+			<div class="banner-text" id="logo">
+				<div class="wow fadeIn animated logowrap" data-wow-delay="1s">
+					<a href="index.html">
+						<img src="images/logos.png">
+						<span class="logof" id="cc">C</span>
+						<span class="logof" id="mm">M</span>
+						<span class="logof" id="ss">S</span>
+						<span class="logof" id="ccc">C</span>
+						<span class="logof" id="ii">I</span>
+					</a>
 				</div>
-			</div>	
-			<!--//navigation-->
-		</div>
+				<p class="wow faedIn animated" data-wow-delay="3s">World Wide Metal Distributor</p>
+			</div>
+		</div> 
 	</div>
+</div>
 	<!--//banner-->
 	<!--welcome-->
 	<div class="welcome" id="about">
@@ -120,7 +107,7 @@ canvas{
 				</div>
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome" data-wow-delay=".5s" >
 					<!-- <h5>01</h5> -->
-					<div class="col-md-3"><h4>About Us</h4></div>
+					<div class="col-md-3"><h4 class="gray">About Us</h4></div>
 					<div class="col-md-9"><p>Established in 2002, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
 				    </div>
 				</div>
@@ -173,7 +160,7 @@ canvas{
 	<div class="welcome services" id="services">
 		<div class="container">
 		<div class="row">
-			<h4 class="title wow fadeInDown animated" data-wow-delay="1.5s">Our Products</h4>
+			<h4 class="title wow fadeInDown animated gray" data-wow-delay="0.5s">Our Products</h4>
 			<div class="services-info">
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
 					<a href="alumnium.php">
@@ -225,9 +212,78 @@ canvas{
 		</div>
 	</div>
 	<!--//services-->
-<?php include('includes/footer.php'); ?>
-<script src="js/three.min.js"></script>
+	<!--footer-->
+	<div class="welcome footer">
+		<div class="container">
+			<div class="col-md-4 footer-grid">
+				<h3>Links</h3>
+				<p>Policy</p>
+				<p>Terms</p>
+			</div>
+			<div class="col-md-4 footer-grids">
+				<h3>Contact Us</h3>
+				<p>18 Killaloe Road Unit 3<br>
+					Vaughan, ON, CAN L4K 2P2<br>
+					Office : +1 (905) 660-4488<br>
+					Support to : <a href="mailto:contact@cmsci.ca">contact@cmsci.ca</a>
+				</p>
+			</div>
+			<div class="col-md-4 footer-grids">
+				<h3>Brochure</h3>
+				<form>
+					<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="Download">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="footer-copy">
+				<p>© 2016 CMSCI. All rights reserved | Design by <a href="http://www.cmsci.ca">CMSCI</a></p>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
 
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/jquery.fancybox.js" type="text/javascript"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/navShrink.min.js"></script>
+<script type="text/javascript">
+//Init the plugin
+$(document).ready(function() {
+    $("#navabout").click(function(){
+    	$(this).parent().addClass("menu-item-current");
+    	$(this).parent().siblings().removeClass("menu-item-current");
+    });
+    $("#navsrv").click(function(){
+    	$(this).parent().addClass("menu-item-current");
+    	$(this).parent().siblings().removeClass("menu-item-current");
+    });
+    $("#navdo").click(function(){
+    	$(this).parent().addClass("menu-item-current");
+    	$(this).parent().siblings().removeClass("menu-item-current");
+    });
+    //enable navishrink
+    var shrinker = $('.navbar').navShrink({
+        bgInitColor: 'rgba(17,17,17,1)',
+        // fadeEnable: true,
+        responsiveEnable: true,
+          // enable the fade transition effect
+			fadeEnable: true
+    });
+});
+</script>
+ 
+<script src="js/three.min.js"></script>
+<script>
+$( window ).scroll(function(){
+	var dTop = $("#home > header > div.container").height()+2;
+	$(".navbar-nav>li>.dropdown-menu").css({top: dTop});
+});
+</script>
 <script>
 // Based on http://www.openprocessing.org/visuals/?visualID=6910
 var Boid = function() {
@@ -394,7 +450,7 @@ var Boid = function() {
 }
 </script>
 
-<script>
+<!-- <script>
 var SCREEN_WIDTH = window.innerWidth,
 SCREEN_HEIGHT = window.innerHeight,
 SCREEN_WIDTH_HALF = SCREEN_WIDTH  / 2,
@@ -472,7 +528,7 @@ function render() {
 	renderer.render( scene, camera );
 }
 </script>
-
+ -->
 <script>
 var canvas = document.getElementById('nokey'),
    can_w = parseInt(canvas.getAttribute('width')),
@@ -502,7 +558,7 @@ var ball = {
     
 // Line
    link_line_width = 0.8,
-   dis_limit = 1200,
+   dis_limit = 600,
    add_mouse_point = true,
    mouse_in = false,
    mouse_ball = {

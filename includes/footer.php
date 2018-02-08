@@ -29,18 +29,18 @@
 	</div>
 	<!--//footer-->
 
-
-<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/jquery.fancybox.js" type="text/javascript"></script>
 <script src="js/modernizr.js"></script>
 <script src="js/navShrink.min.js"></script>
+
+
 <script type="text/javascript">
 //Init the plugin
 $(document).ready(function() {
-    
+	 
     //enable navishrink
     var shrinker = $('.navbar').navShrink({
         bgInitColor: 'rgba(207,207,207,1)',

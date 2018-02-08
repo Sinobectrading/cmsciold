@@ -63,6 +63,21 @@ canvas{
     text-shadow: 0px 0px 1px #fff;
     }
 }
+.temp a {
+	color: #fff;
+}
+.welcome .au {
+	color: #719568;
+}
+.welcome .wwd {
+	color: #547b85;
+}
+.welcome .os {
+	color: #79718e;
+}
+#services .op {
+	color: #978c62;
+}
 </style>
 </head>
 <body>
@@ -107,7 +122,7 @@ canvas{
 				</div>
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome" data-wow-delay=".5s" >
 					<!-- <h5>01</h5> -->
-					<div class="col-md-3"><h4 class="gray">About Us</h4></div>
+					<div class="col-md-3"><h4 class="au">About Us</h4></div>
 					<div class="col-md-9"><p>Established in 2002, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
 				    </div>
 				</div>
@@ -117,7 +132,7 @@ canvas{
 			<div class="flexcenter" id="srvs">
 				<div class="col-lg-5 col-md-6  col-sm-6 welcome wow slideInLeft animated" id="ourservice"  data-wow-delay=".5s" >
 					<div class="col-md-4">
-						<h4>What We do</h4>
+						<h4 class="wwd">What We do</h4>
 					</div>
 					<div class="col-md-8">
 						<p>CMSCI supplies Aluminum and stainless metal products for residential, commercial, industrial, developers, general contractors as well as distributors.
@@ -138,7 +153,7 @@ canvas{
 				</div>
 				<div class=" welcome col-lg-5 col-md-6 col-sm-6 wow slideInRight animated" data-wow-delay=".5s">
 					<!-- <h5>03</h5> -->
-					<div class="col-md-4"><h4>Our Service</h4></div>
+					<div class="col-md-4"><h4 class="os">Our Service</h4></div>
 					<div class="col-md-8">
 					<p> We can help and we commit six factors to our customers:
 						<li>Prompt reply</li>
@@ -160,30 +175,29 @@ canvas{
 	<div class="welcome services" id="services">
 		<div class="container">
 		<div class="row">
-			<h4 class="title wow fadeInDown animated gray" data-wow-delay="0.5s">Our Products</h4>
+			<h4 class="title wow fadeInDown animated gray op" data-wow-delay="0.5s">Our Products</h4>
 			<div class="services-info">
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
-					<a href="alumnium.php">
+					<a href="extrusion.php">
 						<figure class="effect-apollo">
 						<img src="images/al.jpg" alt="al"/>
 						<figcaption>
 							<div class="temp">
-								<h2>Aluminum&nbsp;<span>Products</span></h2>
-								<p>● Plates <br>● Sheets <br>● Coils <br>● Extrusions</p>
+								<h2>Aluminum&nbsp;<span>Extrusion</span></h2>
+								<p>● Standard Extrusion <br>● Customized Extrusuon</p>
    							</div>
  						</figcaption>
 					</a>
-				</div>
-
+				</div> 
 
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
-					<a href="alumnium.php">
+					<a href="plate.php">
 						<figure class="effect-apollo">
 						<img src="images/steel.jpg" alt="al"/>
 						<figcaption>
 							<div class="temp">
-								<h2>Steel&nbsp;<span>Products</span></h2>
-								<p>● Stainless <br>● Galvanized <br>● Carbon steel</p>
+								<h2>Plates&nbsp;&&nbsp;<span>Sheets</span></h2>
+								<p>● Alloy <br>● Composite Panel <br>● Coil</p>
    							</div>
  						</figcaption>
 					</a>
@@ -192,13 +206,13 @@ canvas{
 
 
 				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
-					<a href="alumnium.php">
+					<a href="steel.php">
 						<figure class="effect-apollo">
 						<img src="images/railing.jpg" alt="al"/>
 						<figcaption>
 							<div class="temp">
-								<h2>Other&nbsp;<span>Products</span></h2>
-								<p>● Glass <br>● Plastic <br>● Painting</p>
+								<h2>Steel&nbsp;<span>Products</span></h2>
+								<p>● Stainless Steel <br>● Galvanized steel <br>● Carbon steel</p>
    							</div>
  						</figcaption>
 					</a>

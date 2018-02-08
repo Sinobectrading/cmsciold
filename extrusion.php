@@ -27,12 +27,12 @@
 }
 #cnt div img {
 	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 #cnt div h4 {
 	font-size: 19px;
 	font-weight: 700;
-	padding-top: 28px;
+	padding-top: 20px;
 	color: #787878;
 }
 #cnt h1 {
@@ -57,41 +57,42 @@
 <!--work-->
 <div class="welcome work" id="work">
 	<div class="container">
-		<div class="work-info">
+		<div class="work-info row">
 			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated hidden-xs" data-wow-delay=".5s">
 <!-- 				<h4 class="title"><a href="standard.php">Aluminum Standard Extrusion</a></h4>
  -->				<p></p>
 				 
 			</div>
 
-			<div class="col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
+			<div class="row col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
 				 <main class="cd-main-content">
-					<nav class="cd-side-nav">
-						<ul id="product">
- 							<li class="cd-label">Aluminum Extrusion</li>
- 							<li class="has-children overview">
-								<a>Standard Extrusion <img src="img/dr.png" alt=""></a>
-								<ul>
-									<li><a class="ajaxcnt" id="tube">Tube</a></li>
-									<li><a class="ajaxcnt" id="chn">Channel</a></li>
-									<li><a class="ajaxcnt">Beam</a></li>
-									<li><a class="ajaxcnt">Angle</a></li>
-									<li><a class="ajaxcnt">Pipe</a></li>
-									<li><a class="ajaxcnt">Bar</a></li>
-								</ul>
-							</li>
-  							<li class="has-children comments">
-								<a>Customized Extrusion  <img src="img/dr.png" alt=""></a>
-								<ul>
-									<li><a class="ajaxcnt">Picket</a></li>
-									<li><a class="ajaxcnt">Post</a></li>
-									<li><a class="ajaxcnt">Solar Panel</a></li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-
-					<div class="content-wrapper" id="cnt">
+					<div class="col-lg-2 col-md-2 col-sm-3">
+						<nav class="cd-side-nav">
+							<ul id="product">
+	 							<li class="cd-label">Aluminum Extrusion</li>
+	 							<li class="has-children overview">
+									<a>Standard Extrusion <img src="img/dr.png" alt=""></a>
+									<ul>
+										<li><a class="ajaxcnt" id="tube">Tube</a></li>
+										<li><a class="ajaxcnt" id="chn">Channel</a></li>
+										<li><a class="ajaxcnt" id="beam">Beam</a></li>
+										<li><a class="ajaxcnt" id="angle">Angle</a></li>
+										<li><a class="ajaxcnt" id="pipe">Pipe</a></li>
+										<li><a class="ajaxcnt" id="bar">Bar</a></li>
+									</ul>
+								</li>
+	  							<li class="has-children comments">
+									<a>Customized Extrusion  <img src="img/dr.png" alt=""></a>
+									<ul>
+										<li><a class="ajaxcnt">Picket</a></li>
+										<li><a class="ajaxcnt">Post</a></li>
+										<li><a class="ajaxcnt">Solar Panel</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-10 col-md-10 col-sm-9 clearfix" id="cnt">
 						<!-- <h1>Summary</h1> -->
 						<div class="col-md-6">
 							<img src="images/product/001.jpg" alt="">
@@ -140,6 +141,7 @@ $(document).ready(function(){
 	          // $("<tfoot>"+header+"</tfoot>").insertBefore("#container tbody");
 	    	},
 	    complete: function(){
+
 	    	}
 		});
 	});

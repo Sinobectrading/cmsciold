@@ -1,6 +1,7 @@
 body{
     margin:0;
-    font-family: 'Alegreya Sans', sans-serif;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     background: transparent ! important;
     background-color: transparent ! important;
 }
@@ -14,7 +15,8 @@ body a{
  }
 h1,h2,h3,h4,h5,h6{
     margin:0;   
-    font-family: 'Alegreya Sans', sans-serif;
+   /* font-family: 'Alegreya Sans', sans-serif;*/
+   font-family: 'Inconsolata', monospace;
 }
 p{
     margin:0;
@@ -355,7 +357,7 @@ a.navbar-brand img {
     padding-top: 40px;
     padding-bottom: 40px;
     color: #333;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -461,7 +463,8 @@ a.navbar-brand img {
 .logof {
     font-size: 82px;
     color: #fff;
-    font-family: 'Orbitron', sans-serif
+    /*font-family: 'Orbitron', sans-serif*/
+    font-family: 'Inconsolata', monospace;
 }
 /*--baner--*/
 .banner {
@@ -528,7 +531,8 @@ ul.social-icons{
     font-size: 1.5em;
     text-align: right;
     font-weight: 100;
-    font-family: 'Alegreya Sans', sans-serif;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     letter-spacing: 4px;
 }
 .banner-top-right p span.glyphicon{
@@ -588,7 +592,8 @@ ul.nav.navbar {
     letter-spacing: 2px;
     font-size: 1.4em;
     color: #fff;
-    font-family: 'Alegreya Sans', sans-serif;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     position: relative;
     font-weight: 300;
     padding: .5em 1.5em;
@@ -596,7 +601,19 @@ ul.nav.navbar {
 .nav > li > a:hover, .nav > li > a:focus {
     background: none;
 }
-
+.profile {
+    font-size: 1.1em;
+    font-weight: bold
+}
+.tab-pane table {
+    width: 100% ! important
+}
+.tab-pane table tr td {
+    text-align: center;
+}
+.ajaxcontent .nav-tabs>li.active>a{
+    color: #ec3330
+}
 /* Common styles for all menus */
 .menu-item {
     display: block;
@@ -604,8 +621,8 @@ ul.nav.navbar {
 }
 .menu-link {
     font-size: 1.05em;
-    font-weight: bold;
-    display: block;
+/*    font-weight: bold;
+*/    display: block;
     padding: 1em;
     cursor: pointer;
     -webkit-user-select: none;
@@ -761,7 +778,8 @@ h3.title,h2.title{
 }
 .welcome h5 {
     font-size: 2em;
-    font-family: 'Alegreya Sans', sans-serif;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     font-weight: 800;
     margin: 2em 1em 1em;
     position: relative;
@@ -811,7 +829,7 @@ h3.title,h2.title{
     margin-top: 0em;
 }
 .welcome p{
-    font-size:1.3em;
+    font-size:1.1em;
     color: #333;
     line-height:1.8em;
 }
@@ -990,7 +1008,7 @@ h3.title,h2.title{
     margin-right:.8em;
 }*/
 .welcome.work h4{
-    margin: 0 0 0.5em;
+    margin: 0;
     font-size: 2.5em;
     letter-spacing: 1px;
     color: #333;
@@ -1393,8 +1411,8 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
     background: #b3c2bf;
 }
 .footer h3 {
-    font-size: 3em;
-    color: #21b2a6;
+    font-size: 2.3em;
+    color: #728d88;
     margin-bottom: 0.5em;
 }
 .footer-grids:nth-child(1) {
@@ -1404,7 +1422,7 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
     color: #000;
 }
 .footer p a:hover{
-    color: #21b2a6;
+    color: #647b77;
 }
 .footer input[type="text"] {
     outline: none;
@@ -1412,7 +1430,8 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
     color: #999;
     font-size: 1em;
     padding: 10px 15px;
-    font-family: 'Alegreya Sans', sans-serif;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     border: 3px solid #999;
     margin-bottom: 1em;
 }
@@ -1428,7 +1447,8 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
     transition: .5s all;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
-   font-family: 'Alegreya Sans', sans-serif;
+   /*font-family: 'Alegreya Sans', sans-serif;*/
+   font-family: 'Inconsolata', monospace;
 }
 .footer input[type="submit"]:hover {
     color: #21b2a6;

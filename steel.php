@@ -57,9 +57,7 @@
 	<div class="container">
 		<div class="work-info">
 			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated" data-wow-delay=".5s">
-				<!-- <h3 class="title"><a href="alumnium.php">Steel</a></h3> -->
-				<p></p>
-				 
+				<!-- <h3 class="title"><a href="alumnium.php">Steel</a></h3> -->	 
 			</div>
 
 			<div class="col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
@@ -67,16 +65,16 @@
 					<nav class="cd-side-nav">
 						<ul id="product">
 							<li class="cd-label">Steel</li>
-  							<li class="has-children overview">
+  							<li class="comments">
 								<a class="ajaxcnt">Stainless Steel</a>
  							</li>
 
- 							<li class="has-children overview">
-								<a class="ajaxcnt">Galvanized steel</a>
+ 							<li class="comments">
+								<a class="ajaxcnt">Galvanized Steel</a>
  							</li>
 
- 							<li class="has-children overview">
-								<a class="ajaxcnt">Carbon steel</a>
+ 							<li class="comments">
+								<a class="ajaxcnt">Carbon Steel</a>
  							</li>
 						</ul>
 					</nav>
@@ -84,16 +82,16 @@
 					<div class="content-wrapper" id="cnt">
 						<!-- <h1>Summary</h1> -->
 						<div class="col-md-6">
-							<img src="images/product/001.jpg" alt="">
+							<img src="images/product/998_898_st01.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/002.jpg" alt="">
+							<img src="images/product/998_898_st03.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/003.jpg" alt="">
+							<img src="images/product/998_898_st04.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/004.jpg" alt="">
+							<img src="images/product/998_898_st05.jpg" alt="">
 						</div>
 					</div> <!-- .content-wrapper -->
 				</main> <!-- .cd-main-content -->
@@ -110,10 +108,10 @@
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script>
 $(document).ready(function(){
-	$('li.has-children ul li > a').click(function(event) {
+	$('li.comments').click(function(event) {
 		event.preventDefault();
-	    $('li.has-children').removeClass('active');
-	    $(this).closest("ul").parent().addClass('active');
+	    $('li.comments').removeClass('active');
+	    $(this).addClass('active');
 	});
 
 	$(".ajaxcnt").click(function(){
@@ -122,7 +120,7 @@ $(document).ready(function(){
 		$.ajax({
 	    context: this,
 	    dataType : "html",
-	    url : url+".html",
+	    url : "products/"+url+".html",
 	    success : function(results) {
 	          $('#loading').hide();
 	          $("#cnt").html(results);

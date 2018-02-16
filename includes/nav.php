@@ -1,4 +1,4 @@
- <header class="navbar navbar-default navbar-fixed-top">
+ <header class="navbar navbar-default navbar-fixed-top" id="header">
    	<div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="index.php"><img src="images/cmsci_90.png" alt="logo"></a>
@@ -12,16 +12,17 @@
     
     <nav id="bs-navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-				<li <?php if($current == "index") echo "class=\"menu-item menu-item-current\""; else echo "class=\"menu-item\"";?>><a href="index.php" class="menu-link">Home</a></li>
-			
-			<li <?php if($current == "about") echo "class=\"menu-item menu-item-current\""; else echo "class=\"menu-item\"";?>><a href="index.php#hpart1" class="menu-link" id="navabout">About</a></li>
+			<li <?php if($current == "index") echo "class=\"menu-item menu-item-current\""; else echo "class=\"menu-item\"";?>>
+				<a data-toggle="dropdown"  class="menu-link" href="index.php">Home
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" id="ppm">
+					<li role="presentation" data-menuanchor="home2"><a role="menuitem"  href="index.php#home2">About</a></li>
+					<li role="presentation" data-menuanchor="home4"><a role="menuitem"  href="index.php#home4">Services</a></li>
+				</ul>
+			</li>
 			
 		 
-			
-			<li <?php if($current == "srv") echo "class=\"menu-item menu-item-current\""; else echo "class=\"menu-item\"";?>><a href="index.php#hpart3" class="menu-link" id="navsrv">Services</a></li>
-
-
-
 			<li <?php if($current == "products") echo "class=\"menu-item menu-item-current\""; else echo "class=\"menu-item\"";?>    >
 				<a data-toggle="dropdown"  class="menu-link">Products
 					<span class="caret"></span>

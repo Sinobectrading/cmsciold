@@ -1,0 +1,48 @@
+
+<div class="col-md-12 ajaxcontent">
+	<div class="first">
+		<div class="clearfix">
+			<div class="col-md-6"><img src="images/product/960_785_ts01.jpg" alt=""></div>
+			<div class="col-md-6"><img src="images/product/960_785_ts02.jpg" alt=""></div>
+		</div>
+		<div class="desp">
+			<h4>Aluminum Treat & Plates</h4>
+			<p class="profile">Description</p>
+			Aluminum Tread Plate adds slip resistance and durability to work areas, with strong corrosion resistance and good formability(show different pattern here, big diamond, small diamond, 5 bars)
+		</div>
+		 
+		<button type="button" class="to btn btn-default">View Profile</button>
+	</div>
+
+	<div class="second">
+		<div class="clearfix" style="margin-bottom: 15px"><a class="to"><<&nbsp;Back to Description</a></div>
+		<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="trp">
+			<thead>
+			  <tr class="suj">
+			    <td>Item</td>
+			    <td>Alloy</td>
+			    <td>Temper</td>
+			    <td>Thickness</td>
+			    <td>Width</td>
+			  </tr>
+			</thead>
+			<tbody>
+ 				 
+			</tbody>
+		</table>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$(".to").click(function(){
+		$(".first").fadeToggle();
+		$(".second").fadeToggle();
+	});
+    $('#trp').DataTable({
+    	searching: false,
+    	ordering:  false,
+    	responsive: true,
+    	"lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+    });
+});
+</script>

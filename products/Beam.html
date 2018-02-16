@@ -1,0 +1,160 @@
+<style>
+.table>tbody>tr>td, table {
+	border-color: #ddd ! important;
+}
+.table tr.suj td {
+	font-size: 15px;
+	font-weight: 700;
+}
+.profile {
+	padding: 20px 0
+}
+#beam {
+	box-shadow: inset 1px 0 0 #1784c7;
+}
+</style>
+<div class="col-md-12 ajaxcontent">
+	<div class="first">
+		<img src="images/product/1080_beam01.jpg" alt="">
+		<div class="desp">
+			<h4>Aluminum Beam Round Corner</h4>
+			<p class="profile">Description</p>
+			<p><span>
+				Aluminum Beams are commonly used for structural applications. Aluminum 6061-T6 has above average corrosion resistance, good machinability, and is excellent for welding.  
+				</span>
+			</p>
+		</div>
+		<button type="button" class="to btn btn-default">View Profile</button>
+	</div>
+	<div class="second">
+		<div class="clearfix" style="margin-bottom: 15px"><a class="to"><<&nbsp;Back to Description</a></div>
+		<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="beam1">
+			<thead>
+		 		<tr class="suj">
+			        <td height="20" >Alloy Num</td>
+			        <td>Height</td>
+			        <td>Width</td>
+			        <td>Thickness</td>
+			        <td>Thickness 2</td>
+			        <td>I.D</td>
+			        <td>Length</td>
+			    </tr> 
+		    </thead>
+		    <tbody>
+	 		  <tr>
+			    <td>6061-T6</td>
+			    <td>2.50</td>
+			    <td>3.00</td>
+			    <td>0.19</td>
+			    <td>0.25</td>
+			    <td>0.38</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>3.00</td>
+			    <td>4.00</td>
+			    <td>0.15</td>
+			    <td>0.23</td>
+			    <td>0.25</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>3.50</td>
+			    <td>6.00</td>
+			    <td>0.25</td>
+			    <td>0.38</td>
+			    <td>0.44</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>4.00</td>
+			    <td>4.00</td>
+			    <td>0.25</td>
+			    <td>0.31</td>
+			    <td>0.44</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>4.00</td>
+			    <td>6.00</td>
+			    <td>0.28</td>
+			    <td>0.38</td>
+			    <td>0.44</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>4.00</td>
+			    <td>6.00</td>
+			    <td>0.35</td>
+			    <td>0.21</td>
+			    <td>0.30</td>
+			    <td>300.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>5.00</td>
+			    <td>8.00</td>
+			    <td>0.41</td>
+			    <td>0.25</td>
+			    <td>0.30</td>
+			    <td>300.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>6.00</td>
+			    <td>6.00</td>
+			    <td>0.31</td>
+			    <td>0.38</td>
+			    <td>0.63</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>6.00</td>
+			    <td>6.00</td>
+			    <td>0.31</td>
+			    <td>0.38</td>
+			    <td>0.63</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>8.00</td>
+			    <td>8.00</td>
+			    <td>0.38</td>
+			    <td>0.50</td>
+			    <td>0.50</td>
+			    <td>240.00</td>
+			  </tr>
+			  <tr>
+			    <td>6061-T6</td>
+			    <td>5.00</td>
+			    <td>3.50</td>
+			    <td>0.25</td>
+			    <td></td>
+			    <td></td>
+			    <td>240.00</td>
+			  </tr>
+	 		</tbody>
+		</table>
+	</div>	
+</div>
+<script>
+$(document).ready(function(){
+	$(".to").click(function(){
+		$(".first").fadeToggle();
+		$(".second").fadeToggle();
+	});
+    $('#beam1').DataTable({
+    	searching: false,
+    	ordering:  false,
+    	responsive: true,
+    	"lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+    });
+});
+</script>

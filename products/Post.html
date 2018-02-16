@@ -1,0 +1,133 @@
+<style>
+#post {
+	box-shadow: inset 1px 0 0 #1784c7;
+}
+</style>
+<div class="col-md-12 ajaxcontent">
+	<div class="first">
+		<div class="clearfix">
+			<div class="col-md-6"><img src="images/product/960_785_19.jpg" alt=""></div>
+			<div class="col-md-6"><img src="images/product/960_785_15.jpg" alt=""></div>
+		</div>
+		<div class="desp">
+			<h4>POST Extrusion</h4>
+			<p class="profile">Description</p>
+			Linear lengths of all posts, sign frames, and mounting extrusions are available with standard off-the-shelf pre-finish white, however, custom colors and extrusions cut to your specified sizes are available. Post extrusions are available in square, radius, round, and a variety of other shapes. 
+		</div>
+	 	<button type="button" class="to btn btn-default">View Profile</button>
+	</div>
+
+	<div class="second">
+		<div class="clearfix" style="margin-bottom: 15px"><a class="to"><<&nbsp;Back to Description</a></div>
+		<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="post01">
+			<thead>
+			  <tr class="suj">
+			    <td>Alloy Num</td>
+			    <td>Height</td>
+			    <td>Width</td>
+			    <td>Thickness</td>
+			    <td>Length</td>
+			    <td>Surface</td>
+			    <td>Description</td>
+			  </tr>
+			</thead>
+			<tbody>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>72.00</td>
+				    <td>POWDER COAT / BLACK</td>
+				    <td>Post 2" x 2" .060 Wall line post BLACK Powder Coat 6005-T5 72" Fab3</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>84.00</td>
+				    <td>POWDER COAT / BLACK</td>
+				    <td>Post 2" x 2" .060 Wall line post BLACK Powder Coat 6005-T5 84"</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>96.00</td>
+				    <td>POWDER COAT / BLACK</td>
+				    <td>Post 2" x 2" .093 Wall BLACK Powder Coat 6005-T5 96"</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>72.00</td>
+				    <td>POWDER COAT / BLACK</td>
+				    <td>Post 2" x 2" .060 Wall line post BLACK Powder Coat 6005-T5 72" Fab7</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>65.00</td>
+				    <td>POWDER COAT / BLACK</td>
+				    <td>Post 2" x 2" .093 Wall BLACK Powder Coat 6005-T5 65"</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>84.00</td>
+				    <td>Powder coat/Black</td>
+				    <td>Post 2" x 2" .060 Black Powder 84" 6005-T5 SN00295</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td></td>
+				    <td></td>
+				    <td></td>
+				    <td>96.00</td>
+				    <td>Powder coat/Black</td>
+				    <td>Post 2" x 2" .060 Wall Black Powder 96" 6005-T5 SN00295</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td>2.00</td>
+				    <td>2.00</td>
+				    <td>0.06</td>
+				    <td>72.00</td>
+				    <td>POWDER PAINT</td>
+				    <td>Post 2" x 2" .060 Wall Black  72" 6005-T5 SN00295</td>
+				  </tr>
+				  <tr>
+				    <td>6005-T5</td>
+				    <td>2.00</td>
+				    <td>2.00</td>
+				    <td>0.06</td>
+				    <td>96.00</td>
+				    <td>POWDER PAINT</td>
+				    <td>Post 2" x 2" .060 Wall Black  96" 6005-T5 SN00295</td>
+				  </tr>
+ 			</tbody>
+		</table>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$(".to").click(function(){
+		$(".first").fadeToggle();
+		$(".second").fadeToggle();
+	});
+    $('#post01').DataTable({
+    	searching: false,
+    	ordering:  false,
+    	responsive: true,
+    	"lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+    });
+});
+</script>

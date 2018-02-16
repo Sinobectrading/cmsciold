@@ -1,3 +1,9 @@
+.first .btn {
+  margin-top: 15px
+}
+div#work div.second table.table {
+  width: 100% ! important;
+}
 .cd-main-content .content-wrapper {
   padding: 45px 0px 3em;
 }
@@ -11,12 +17,24 @@
   display: none;
   content: 'mobile';
 }
+div#cnt div.second {
+  padding-top: 10px;
+  display: none
+}
 .has-children {
   border-bottom: 1px solid #ddd;
 }
+a.to {
+  cursor: pointer;
+  height: 30px
+}
 #work, .contact {
   margin-top: 8em;
-  padding-bottom: 35px
+  padding-bottom: 35px;
+  min-height: 88vh;
+}
+.footer .container {
+  padding-top: 25px
 }
 @media only screen and (min-width: 768px) {
   .cd-main-content .content-wrapper {
@@ -504,7 +522,9 @@ Sidebar
    .cd-side-nav li {
     cursor: pointer;
    }
-.cd-side-nav .active > a,
+li.comments:hover,
+.cd-side-nav li.comments.active,
+.cd-side-nav li.active:not(.comments) > a,
 .cd-side-nav .has-children:hover > a,
 .cd-side-nav .has-children ul li:hover > a
    {
@@ -512,6 +532,9 @@ Sidebar
     box-shadow: inset 3px 0 0 #1784c7;
     background-color: transparent;
   }
+.cd-side-nav > ul > li.comments > a {
+  padding-left: 0px
+}
   .cd-side-nav .action-btn a {
     margin: 1em 10% 0;
   }

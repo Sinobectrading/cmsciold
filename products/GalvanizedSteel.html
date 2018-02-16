@@ -1,0 +1,53 @@
+<div class="col-md-12 ajaxcontent">
+	<div class="first">
+		<img src="images/product/1920_785_Galvanized.jpg" alt="">
+		<div class="desp"> 
+			<h4>Galvanized Steel</h4>
+			<p class="profile">Description</p>
+			Galvanization is the process of applying a protective coating to steel or iron. The coating is made from zinc and is used to halt the formation of rust. Galvanization is important because it provides long-lasting protection for steel and iron products.
+		</div>
+		<div>
+			<li>Main frame is made of hot roll H-style steel or welded H-style.</li>
+			<li>Fast construction, easy installation, time saving, labor-saving and stable structural.</li>
+			<li>Light weight, high strong, large span and can improve higher space efficiency.</li>
+			<li>It can be pre-fabricated and customire design and earthquake proofing, waterproofing, anticorrosion, beautiful appearances.</li>
+			<li>It has a good ability to assemble at site, and free in designing partitioning and transportation.</li>
+			<li>It has a low foundation cost, energy conserving and environmental protection, and it can be recycled and be use circularly.</li>
+			<li>Usage: workshop, office, warehouse, single-layered heavy plants, large-span public buildings, multi-storey.</li> 
+		</div>
+		<button type="button" class="to btn btn-default">View Profile</button>
+	</div>
+	<div class="second">
+		<div class="clearfix" style="margin-bottom: 15px"><a class="to"><<&nbsp;Back to Description</a></div>
+	  	<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="stainless">
+			<thead>
+			  <tr class="suj">
+			    <th>Alloy Num</th>
+			    <th>Height</th>
+			    <th>Width</th>
+			    <th>I.D</th>
+			    <th>Length</th>
+			    <th>Surface</th>
+			  </tr>
+			</thead>
+	  		<tbody>
+	 
+	 
+			</tbody>
+		</table>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$(".to").click(function(){
+		$(".first").fadeToggle();
+		$(".second").fadeToggle();
+	});
+    $('#galvanized').DataTable({
+    	searching: false,
+    	ordering:  false,
+    	responsive: true,
+    	"lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+    });
+});
+</script>

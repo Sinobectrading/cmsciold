@@ -27,12 +27,13 @@
 }
 #cnt div img {
 	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 }
 #cnt div h4 {
 	font-size: 19px;
 	font-weight: 700;
 	padding-top: 28px;
+	padding-bottom: 12px;
 	color: #787878;
 }
 #cnt h1 {
@@ -58,63 +59,57 @@
 <div class="welcome work" id="work">
 	<div class="container">
 		<div class="work-info">
-			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated hidden-xs" data-wow-delay=".5s">
-<!-- 				<h4 class="title"><a href="standard.php">Aluminum Standard Extrusion</a></h4>
- -->				<p></p>
-				 
-			</div>
-
-			<div class="col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
+			<div class="row col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
 				 <main class="cd-main-content">
 					<nav class="cd-side-nav">
 						<ul id="product">
  							<li class="cd-label">Plates & Sheets</li>
- 							<li class="has-children overview">
-								<a class="ajaxcnt">Alloy 1xxx</a>
+ 							<li class="comments">
+								<a class="ajaxcnt">Sheets & Coils</a>
  							</li>
-  							<li class="has-children comments">
+  							<!-- <li class="comments">
 								<a class="ajaxcnt">Alloy 2XXX</a>
+							</li> -->
+							<li class="comments">
+								<a class="ajaxcnt">Tread Plates</a>
 							</li>
-							<li class="has-children comments">
-								<a class="ajaxcnt">Alloy 3XXX</a>
-							</li>
-							<li class="has-children comments">
+							<!-- <li class="comments">
 								<a class="ajaxcnt">Composite Panel</a>
+							</li> -->
+							<li class="comments">
+								<a class="ajaxcnt">Painted Coils</a>
 							</li>
-							<li class="has-children comments">
-								<a class="ajaxcnt">Alloy 5XXX</a>
+							<!-- <li class="comments">
+								<a class="ajaxcnt">Alloy 6xxx</a>
 							</li>
-							<li class="has-children comments">
-								<a class="ajaxcnt">Alloy 6XXX</a>
-							</li>
-							<li class="has-children comments">
-								<a class="ajaxcnt">Alloy 7XXX</a>
-							</li>
-							<li class="has-children comments">
+							<li class="comments">
+								<a class="ajaxcnt">Alloy 7xxx</a>
+							</li> -->
+							<!-- <li class="has-children comments">
 								<a class="ajaxcnt">Alloy 8XXX</a>
-							</li>
-							<li class="has-children comments">
+							</li> -->
+							<!-- <li class="comments">
 								<a class="ajaxcnt">Painted Coil</a>
-							</li>
-							<li class="has-children comments">
+							</li> -->
+							<!-- <li class="has-children comments">
 								<a class="ajaxcnt">Cold Rolled Coil</a>
-							</li>
+							</li> -->
 						</ul>
 					</nav>
 
 					<div class="content-wrapper" id="cnt">
 						<!-- <h1>Summary</h1> -->
 						<div class="col-md-6">
-							<img src="images/product/001.jpg" alt="">
+							<img src="images/product/998_898_ps01.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/002.jpg" alt="">
+							<img src="images/product/998_898_ps02.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/003.jpg" alt="">
+							<img src="images/product/998_898_ps03.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/004.jpg" alt="">
+							<img src="images/product/998_898_ps04.jpg" alt="">
 						</div>
 					</div> <!-- .content-wrapper -->
 				</main> <!-- .cd-main-content -->
@@ -131,10 +126,10 @@
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script>
 $(document).ready(function(){
-	$('li.has-children ul li > a').click(function(event) {
+	$('li.comments').click(function(event) {
 		event.preventDefault();
-	    $('li.has-children').removeClass('active');
-	    $(this).closest("ul").parent().addClass('active');
+	    $('li.comments').removeClass('active');
+	    $(this).addClass('active');
 	});
 
 	$(".ajaxcnt").click(function(){
@@ -143,7 +138,7 @@ $(document).ready(function(){
 		$.ajax({
 	    context: this,
 	    dataType : "html",
-	    url : url+".html",
+	    url : "products/"+url+".html",
 	    success : function(results) {
 	          $('#loading').hide();
 	          $("#cnt").html(results);

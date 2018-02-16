@@ -3,6 +3,7 @@
 <meta name="keywords" content="cmsci, alumnium, sheets, plates, stainless, provider" />
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"> -->
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
@@ -22,6 +23,7 @@
 <link rel="stylesheet" href="css/set1.css">
 <link rel="stylesheet" href="css/set2.css">
 <link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/jquery.pagepiling.css">
 <!-- <link rel="stylesheet" href="css/tabs.css"> -->
 <!--[if IE]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

@@ -4,137 +4,280 @@
 <title>CMSCI</title>
  <?php include('includes/header.php');
 	$current = "index";  ?>
-<style>
-body {
-	overflow-x: hidden;
-}
-canvas{
- 
-}	
-.dropdown-menu {
-    background-color: rgba(177,177,177,.8);
-    
-    margin-top: 0px;
-    -webkit-box-shadow: -1px 1px 1px rgba(240,89,89,0.8);
-    box-shadow: 0px 1px 1px rgba(240,89,89,0.8);
-    }
-#nokey {
-	position: absolute;
-}
-.flexcenter {
-	display: flex;
-	/*align-items: center;*/
-}
-.flexcenter > div {
-	padding: 0px
-}
-.welcome-left {
-	padding: 0px;
-}
 
-.welcome {
-	display: flex;
-	align-items: center
-}
-#home.homepage .navbar   {
-	background: rgba(177,177,177,.8) ! important;
-} 
-#home .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:visited,
-#home .dropdown-menu li a {
-	color: #fff;
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { /* IE10+ CSS styles go here */
-     #logo .logowrap span, #logo .logowrap img {
-     color: #fff;
-    text-shadow: 0px 0px 1px #fff;
-    }
-}
-/*----MS Edge Browser CSS Start----*/
-@supports (-ms-accelerator:auto) {
-     #logo .logowrap span, #logo .logowrap img {
-     color: #fff;
-    text-shadow: 0px 0px 1px #fff;
-    }
-}
-/*----MS Edge Browser CSS End----*/
-@supports (-ms-ime-align:auto) {
-     #logo .logowrap span, #logo .logowrap img {
-     color: #fff;
-    text-shadow: 0px 0px 1px #fff;
-    }
-}
-.temp a {
-	color: #fff;
-}
-.welcome .au {
-	color: #719568;
-}
-.welcome .wwd {
-	color: #547b85;
-}
-.welcome .os {
-	color: #79718e;
-}
-#services .op {
-	color: #978c62;
-}
-</style>
+<link rel="stylesheet" href="css/ct.css">
 </head>
 <body>
+<?php include('includes/nav.php'); ?>
+
 <!--banner-->
-<div id="home" class="banner homepage">
-	<?php include('includes/nav.php'); ?>
-	<div class="banner-info info">
-		<canvas id="nokey" class="hidden-xs hidden-sm">
- 		</canvas>
- 		<div id="ind" class="clearfix">
-			<div class="banner-top">
-				<div class="container">	 
-					<div class="clearfix"> </div>
+<div id="pagepiling" class="visible-lg">
+
+	<!-- PagePilling 1 -->	
+	<div class="section">	
+		<div id="home" class="banner homepage">
+			
+			<div class="banner-info info">
+				<canvas id="nokey" class="hidden-xs hidden-sm">
+		 		</canvas>
+		 		<div id="ind" class="clearfix">
+					<div class="banner-top">
+						<div class="container">	 
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+
+					<div class="banner-text" id="logo">
+						<div class="wow fadeIn animated logowrap" data-wow-delay="1s">
+							<a href="index.html">
+								<img src="images/logos.png">
+								<span class="logof" id="cc">C</span>
+								<span class="logof" id="mm">M</span>
+								<span class="logof" id="ss">S</span>
+								<span class="logof" id="ccc">C</span>
+								<span class="logof" id="ii">I</span>
+							</a>
+						</div>
+						<p class="wow faedIn animated" data-wow-delay="3s">World Wide Metal Distributor</p>
+						
+					</div>
+					 
+				</div> 
+			</div>
+		</div>
+		<div class="clearfix ba">
+			<div class="w3-arrow bounce animated">
+				<li data-menuanchor="home2"><a role="menuitem"  class="scroll" href="#home2"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- PagePilling 2: About us -->	
+	<div class="section">
+		<div class="flexcenter fullheight" id="hpart1">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 welcome slideInLeft" data-wow-delay=".5s">
+				<img src="images/office.jpg" alt=""/>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 slideInRight welcome" data-wow-delay=".5s" >
+				<!-- <h5>01</h5> -->
+				<div class="col-md-4 col-sm-12"><h4 class="au">About Us</h4></div>
+				<div class="col-md-8 col-sm-12"><p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
+			    </div>
+			</div>
+		</div>
+		<div class="clearfix ba">
+			<div class="w3-arrow bounce animated">
+				<li data-menuanchor="home3"><a role="menuitem"  class="scroll" href="#home3"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+			</div>
+		</div>
+	</div>
+
+	<!-- PagePilling 3 -->	
+	<div class="section">
+		<div class="flexcenter fullheight" id="srvs">
+			<div class="col-lg-4 col-md-4  col-sm-12 welcome slideInLeft " id="ourservice"  data-wow-delay=".5s" >
+				<div class="col-md-4">
+					<h4 class="wwd">What We do</h4>
+				</div>
+				<div class="col-md-8">
+					<p>CMSCI supplies Aluminum and stainless metal products for residential, commercial, industrial, developers, general contractors as well as distributors.
+					</p>
 				</div>
 			</div>
-
-
-			<div class="banner-text" id="logo">
-				<div class="wow fadeIn animated logowrap" data-wow-delay="1s">
-					<a href="index.html">
-						<img src="images/logos.png">
-						<span class="logof" id="cc">C</span>
-						<span class="logof" id="mm">M</span>
-						<span class="logof" id="ss">S</span>
-						<span class="logof" id="ccc">C</span>
-						<span class="logof" id="ii">I</span>
+			<div class="col-lg-8 col-md-8  col-sm-12 welcome slideInRight "  data-wow-delay=".5s" >
+				<img src="images/stainless.jpg" alt=""/>
+			</div>
+		</div>
+		<div class="clearfix ba">
+			<div class="w3-arrow bounce animated">
+				<li data-menuanchor="home4"><a role="menuitem"  class="scroll" href="#home4"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+			</div>
+		</div>
+	</div>
+ 
+	<!-- PagePilling 4 -->	
+	<div class="section">
+		<div class="flexcenter fullheight" id="hpart3">
+			<div class=" welcome col-lg-8 col-md-8 col-sm-12 slideInLeft " data-wow-delay=".5s">
+				<img src="images/srv.jpg" alt=""/>
+			</div>
+			<div class=" welcome col-lg-4 col-md-4 col-sm-12  slideInRight " data-wow-delay=".5s">
+				<!-- <h5>03</h5> -->
+				<div class="col-md-4"><h4 class="os">Our Service</h4></div>
+				<div class="col-md-8">
+				<p id="srvp"> We can help and we commit six factors to our customers:
+					<li>Prompt reply</li>
+					<li>Competitive price</li>
+					<li>Good quality</li>
+					<li>In time delivery</li>
+					<li>Customer service</li>
+					<li>Technical solutions</li>
+				</p>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix ba">
+			<div class="w3-arrow bounce animated">
+				<li data-menuanchor="home5"><a role="menuitem"  class="scroll" href="#home5"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+			</div>
+		</div>
+ 	</div>
+	 
+	<!-- PagePilling 5 : products -->	
+	<div class="section" id="hpart5">
+		<div class="fullheight">
+			<div class="flexcenter" id="services">
+				<div class="col-md-6 col-xs-12 grid slideInLeft" data-wow-delay=".5s">
+					<a href="extrusion.php">
+						<figure class="effect-apollo">
+							<img src="images/product/1000_600_ex.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Aluminum&nbsp;<span>Extrusion</span></h2>
+									<p>● Standard Extrusion <br>● Customized Extrusuon</p>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+				</div> 
+				<div class="col-md-6 col-xs-12 slideInRight welcome">
+					<div class="col-md-3"><h4 class="au">Products</h4>
+					</div>
+					<div class="col-md-9">
+						<p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
+				    </div>
+				</div>
+			</div>
+	 
+	 
+			<div class="flexcenter" id="hpart6">
+				<div class="col-md-6 col-xs-12 grid" data-wow-delay=".5s">
+					<a href="plate.php">
+						<figure class="effect-apollo">
+							<img src="images/product/1000_600_ps.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Plates&nbsp;&&nbsp;<span>Sheets</span></h2>
+									<p>● Alloy <br>● Composite Panel <br>● Coil</p>
+								</div>
+							</figcaption>
+						</figure>
 					</a>
 				</div>
-				<p class="wow faedIn animated" data-wow-delay="3s">World Wide Metal Distributor</p>
+
+				<div class="col-md-6 col-xs-12 grid zoomIn" data-wow-delay=".5s">
+					<a href="steel.php">
+						<figure class="effect-apollo">
+							<img src="images/product/1000_600_st.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Steel&nbsp;<span>Products</span></h2>
+									<p>● Stainless Steel <br>● Galvanized steel <br>● Carbon steel</p>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 			</div>
-		</div> 
+		</div>
+		<div class="clearfix ba">
+			<div class="w3-arrow bounce animated">
+				<li data-menuanchor="footer"><a role="menuitem"  class="scroll" href="#footer"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a></li>
+			</div>
+		</div>
+ 	</div>
+
+	<div class="section"> 
+	<!--footer-->
+		<div class="welcome footer">
+		<div class="container">
+			<div class="col-md-4 footer-grid">
+				<h3>Links</h3>
+				<p>Policy</p>
+				<p>Terms</p>
+			</div>
+			<div class="col-md-4 footer-grids">
+				<h3>Contact Us</h3>
+				<p>18 Killaloe Road Unit 3<br>
+					Vaughan, ON, CAN L4K 2P2<br>
+					Office : +1 (905) 660-4488<br>
+					Support to : <a href="mailto:contact@cmsci.ca">contact@cmsci.ca</a>
+				</p>
+			</div>
+			<div class="col-md-4 footer-grids">
+				<h3>Brochure</h3>
+				<form>
+					<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="Download">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="footer-copy">
+				<p>© 2016 CMSCI. All rights reserved | Design by <a href="http://www.cmsci.ca">CMSCI</a></p>
+			</div>
+		</div>
 	</div>
+	</div>
+	<!--//footer-->
 </div>
-	<!--//banner-->
-	<!--welcome-->
-	<div class="welcome" id="about">
+
+
+
+
+
+
+<div class="clearfix hidden-lg">
+	<div id="home" class="banner homepage">
+ 		<div class="banner-info info">
+			<canvas id="nokey" class="hidden-xs hidden-sm">
+	 		</canvas>
+	 		<div id="ind" class="clearfix">
+				<div class="banner-top">
+					<div class="container">	 
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+
+
+				<div class="banner-text" id="logo">
+					<div class="wow fadeIn animated logowrap" data-wow-delay="1s">
+						<a href="index.html">
+							<img src="images/logos.png">
+							<span class="logof" id="cc">C</span>
+							<span class="logof" id="mm">M</span>
+							<span class="logof" id="ss">S</span>
+							<span class="logof" id="ccc">C</span>
+							<span class="logof" id="ii">I</span>
+						</a>
+					</div>
+					<p class="wow faedIn animated" data-wow-delay="3s">World Wide Metal Distributor</p>
+				</div>
+			</div> 
+		</div>
+	</div>
+	 
+	<div class="welcome" id="home2">
 		<div class="row">
-<!-- 		<h2 class="title wow fadeIn animated" data-wow-delay=".5s" id="welcome">Welcome To Canadian Metal Service Center Inc</h2>
- -->		<div class="flexcenter" id="hpart1">
+				<div class="flexcenter" id="hpart1">
 				<div class="col-lg-7 col-md-6 col-sm-6 col-xs-12 wow slideInLeft animated welcome" data-wow-delay=".5s">
 					<img src="images/office.jpg" alt=""/>
 				</div>
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome" data-wow-delay=".5s" >
 					<!-- <h5>01</h5> -->
 					<div class="col-md-3"><h4 class="au">About Us</h4></div>
-					<div class="col-md-9"><p>Established in 2002, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
+					<div class="col-md-9"><p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
 				    </div>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
 
-			<div class="flexcenter" id="srvs">
+			<div class="flexcenter" id="home3">
 				<div class="col-lg-5 col-md-6  col-sm-6 welcome wow slideInLeft animated" id="ourservice"  data-wow-delay=".5s" >
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<h4 class="wwd">What We do</h4>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-9">
 						<p>CMSCI supplies Aluminum and stainless metal products for residential, commercial, industrial, developers, general contractors as well as distributors.
 						</p>
 					</div>
@@ -147,7 +290,7 @@ canvas{
 			<div class="clearfix"> </div>
 
 
-			<div class="flexcenter" id="hpart3">
+			<div class="flexcenter" id="home4">
 				<div class=" welcome col-lg-7 col-md-6 col-sm-6 wow slideInLeft animated" data-wow-delay=".5s">
 					<img src="images/srv.jpg" alt=""/>
 				</div>
@@ -155,7 +298,7 @@ canvas{
 					<!-- <h5>03</h5> -->
 					<div class="col-md-4"><h4 class="os">Our Service</h4></div>
 					<div class="col-md-8">
-					<p> We can help and we commit six factors to our customers:
+					<p id="srvp"> We can help and we commit six factors to our customers:
 						<li>Prompt reply</li>
 						<li>Competitive price</li>
 						<li>Good quality</li>
@@ -167,66 +310,65 @@ canvas{
 				</div>
 			</div>
 			<div class="clearfix"> </div>
- 
-		</div>
-	</div>
-	<!--//welcome-->
-	<!--services-->
-	<div class="welcome services" id="services">
-		<div class="container">
-		<div class="row">
-			<h4 class="title wow fadeInDown animated gray op" data-wow-delay="0.5s">Our Products</h4>
-			<div class="services-info">
-				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
+
+		 
+			<div class="flexcenter" id="home5">
+				<div class="col-md-6 col-xs-12 grid wow zoomIn animated slideInLeft" data-wow-delay=".5s">
 					<a href="extrusion.php">
 						<figure class="effect-apollo">
-						<img src="images/al.jpg" alt="al"/>
-						<figcaption>
-							<div class="temp">
-								<h2>Aluminum&nbsp;<span>Extrusion</span></h2>
-								<p>● Standard Extrusion <br>● Customized Extrusuon</p>
-   							</div>
- 						</figcaption>
+							<img src="images/product/1000_600_ex.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Aluminum&nbsp;<span>Extrusion</span></h2>
+									<p>● Standard Extrusion <br>● Customized Extrusuon</p>
+								</div>
+							</figcaption>
+						</figure>
 					</a>
 				</div> 
-
-				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
+				<div class="col-md-6 col-xs-12 slideInRight welcome">
+					<div class="col-md-3"><h4 class="au">Products</h4>
+					</div>
+					<div class="col-md-9">
+						<p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
+				    </div>
+				</div>
+			</div>
+			
+			<div class="flexcenter" id="hpart6">
+				<div class="col-md-6 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s">
 					<a href="plate.php">
 						<figure class="effect-apollo">
-						<img src="images/steel.jpg" alt="al"/>
-						<figcaption>
-							<div class="temp">
-								<h2>Plates&nbsp;&&nbsp;<span>Sheets</span></h2>
-								<p>● Alloy <br>● Composite Panel <br>● Coil</p>
-   							</div>
- 						</figcaption>
+							<img src="images/product/1000_600_ps.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Plates&nbsp;&&nbsp;<span>Sheets</span></h2>
+									<p>● Alloy <br>● Composite Panel <br>● Coil</p>
+								</div>
+							</figcaption>
+						</figure>
 					</a>
 				</div>
 
-
-
-				<div class="col-md-4 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s" id="al">
+				<div class="col-md-6 col-xs-12 grid wow zoomIn animated" data-wow-delay=".5s">
 					<a href="steel.php">
 						<figure class="effect-apollo">
-						<img src="images/railing.jpg" alt="al"/>
-						<figcaption>
-							<div class="temp">
-								<h2>Steel&nbsp;<span>Products</span></h2>
-								<p>● Stainless Steel <br>● Galvanized steel <br>● Carbon steel</p>
-   							</div>
- 						</figcaption>
+							<img src="images/product/1000_600_st.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Steel&nbsp;<span>Products</span></h2>
+									<p>● Stainless Steel <br>● Galvanized steel <br>● Carbon steel</p>
+								</div>
+							</figcaption>
+						</figure>
 					</a>
 				</div>
-
-
-				 
 				<div class="clearfix"> </div>
-			</div>
+
 			</div>
 		</div>
 	</div>
-	<!--//services-->
-	<!--footer-->
+		<!--footer-->
 	<div class="welcome footer">
 		<div class="container">
 			<div class="col-md-4 footer-grid">
@@ -256,48 +398,17 @@ canvas{
 		</div>
 	</div>
 	<!--//footer-->
+</div>
 
-
-<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/jquery.fancybox.js" type="text/javascript"></script>
 <script src="js/modernizr.js"></script>
-<script src="js/navShrink.min.js"></script>
-<script type="text/javascript">
-//Init the plugin
-$(document).ready(function() {
-    $("#navabout").click(function(){
-    	$(this).parent().addClass("menu-item-current");
-    	$(this).parent().siblings().removeClass("menu-item-current");
-    });
-    $("#navsrv").click(function(){
-    	$(this).parent().addClass("menu-item-current");
-    	$(this).parent().siblings().removeClass("menu-item-current");
-    });
-    $("#navdo").click(function(){
-    	$(this).parent().addClass("menu-item-current");
-    	$(this).parent().siblings().removeClass("menu-item-current");
-    });
-    //enable navishrink
-    var shrinker = $('.navbar').navShrink({
-        bgInitColor: 'rgba(17,17,17,1)',
-        // fadeEnable: true,
-        responsiveEnable: true,
-          // enable the fade transition effect
-			fadeEnable: true
-    });
-});
-</script>
- 
+<!-- <script src="js/navShrink.min.js"></script> -->
 <script src="js/three.min.js"></script>
-<script>
-$( window ).scroll(function(){
-	var dTop = $("#home > header > div.container").height()+2;
-	$(".navbar-nav>li>.dropdown-menu").css({top: dTop});
-});
-</script>
+<script src="js/jquery.pagepiling.js"></script> 
+ 
 <script>
 // Based on http://www.openprocessing.org/visuals/?visualID=6910
 var Boid = function() {
@@ -816,7 +927,43 @@ canvas.addEventListener('mousemove', function(e){
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 });
+</script>
 
+<script>
+$(document).ready(function(){
+	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+	if(!isMobile) {
+		$('#pagepiling').pagepiling({
+			anchors: ['home1','home2','home3','home4','home5','footer'],
+	    	menu: '#ppm',
+	        direction: 'vertical',
+	        verticalCentered: true,
+	        sectionsColor: [],
+	        scrollingSpeed: 700,
+	        easing: 'swing',
+	        loopBottom: true,
+	        loopTop: true,
+	        css3: true,
+	        navigation: {
+	            'textColor': '#000',
+	            'bulletsColor': '#000',
+	            'position': 'right',
+	            'tooltips': ['Top', 'About Us', 'What We Do', 'Services', 'Products']
+	        },
+	       	normalScrollElements: null,
+	        normalScrollElementTouchThreshold: 5,
+	        touchSensitivity: 5,
+	        keyboardScrolling: true,
+	        sectionSelector: '.section',
+	        animateAnchor: false,
+
+			//events
+			onLeave: function(index, nextIndex, direction){},
+			afterLoad: function(anchorLink, index){},
+			afterRender: function(){},
+		});
+	}
+});
 </script>
 </body>
 </html>

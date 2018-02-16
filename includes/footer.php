@@ -31,37 +31,43 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script> -->
 <script src="js/classie.js"></script>
 <script src="js/jquery.fancybox.js" type="text/javascript"></script>
 <script src="js/modernizr.js"></script>
-<script src="js/navShrink.min.js"></script>
+<!-- <script src="js/navShrink.min.js"></script> -->
 
 
 <script type="text/javascript">
 //Init the plugin
 $(document).ready(function() {
-	 
+	//enable PagePilling
+	
+	$(".to").click(function(){
+		$(".first").fadeToggle();
+		$(".second").fadeToggle();
+	});
     //enable navishrink
-    var shrinker = $('.navbar').navShrink({
-        bgInitColor: 'rgba(207,207,207,1)',
-        fadeEnable: true,
-        responsiveEnable: true,
-          // enable the fade transition effect
-			fadeEnable: true
-    });
+   //  var shrinker = $('.navbar').navShrink({
+   //      bgInitColor: 'rgba(207,207,207,9)',
+   //      fadeEnable: true,
+   //      responsiveEnable: true,
+   //        // enable the fade transition effect
+			// fadeEnable: true
+   //  });
 
-    $("#navabout").click(function(){
-    	$("#navabout").parent().addClass("menu-item-current");
-    	$("#navabout").parent().siblings().removeClass("menu-item-current");
-    });
-    $("#navsrv").click(function(){
-    	$("#navsrv").parent().addClass("menu-item-current");
-    	$("#navsrv").parent().siblings().removeClass("menu-item-current");
-    });
-    $("#navdo").click(function(){
-    	$("#navdo").parent().addClass("menu-item-current");
-    	$("#navdo").parent().siblings().removeClass("menu-item-current");
-    });
+   //  $("#navabout").click(function(){
+   //  	$("#navabout").parent().addClass("menu-item-current");
+   //  	$("#navabout").parent().siblings().removeClass("menu-item-current");
+   //  });
+   //  $("#navsrv").click(function(){
+   //  	$("#navsrv").parent().addClass("menu-item-current");
+   //  	$("#navsrv").parent().siblings().removeClass("menu-item-current");
+   //  });
+   //  $("#navdo").click(function(){
+   //  	$("#navdo").parent().addClass("menu-item-current");
+   //  	$("#navdo").parent().siblings().removeClass("menu-item-current");
+   //  });
 });
 </script>
  

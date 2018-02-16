@@ -1,0 +1,69 @@
+
+<div class="col-md-12 ajaxcontent">
+	<div class="first">
+		<div class="clearfix">
+			<div class="col-md-6"><img src="images/product/960_785_pl02.jpg" alt=""></div>
+			<div class="col-md-6"><img src="images/product/960_785_coil.jpg" alt=""></div>
+		</div>
+		<div class="desp">
+			<h4>Aluminum Sheets & Coil</h4>
+			<p class="profile">Description</p>
+			Description: Aluminum Sheet (Plate) is available in various alloys offering a range of weldability, corrosion resistance and machinability. High strength Aluminum Sheet, such as 7075, can be used in aerospace applications, and high corrosion resistance aluminum alloy sheets are commonly used in marine applications.
+		</div>
+		 
+		<button type="button" class="to btn btn-default">View Profile</button>
+	</div>
+
+	<div class="second">
+		<div class="clearfix" style="margin-bottom: 15px"><a class="to"><<&nbsp;Back to Description</a></div>
+		<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="sc01">
+			<thead>
+			  	<tr class="suj">
+			    	<td>Item</td>
+			    	<td>Alloy</td>
+			    	<td>Temper</td>
+			    	<td>Thickness</td>
+			    	<td>Width</td>
+			  	</tr>
+			</thead>
+			<tbody>
+ 				<tr>
+				    <td>Aluminium Coil</td>
+				    <td rowspan="4">1050 1060 <br>1070 1100 <br>3003 3004<br>3105 5005<br>5052 5754<br>6061 6063<br>8011 8079</td>
+				    <td rowspan="4">O, F,<br>H*2, H*4,<br>H*6, H*8<br>T3, T4,<br>T5, T6</td>
+				    <td>0.2-10mm</td>
+				    <td>10-2600mm</td>
+				</tr>
+			  	<tr>
+			    	<td>Mirror Aluminium</td>
+			    	<td>0.15-3.0mm</td>
+			    	<td>100-1600mm</td>
+			  	</tr>
+			  	<tr>
+			    	<td>Checkered Aluminium</td>
+			    	<td>1.0-6.0mm</td>
+			    	<td>100-1600mm</td>
+			  	</tr>
+			  	<tr>
+			    	<td>Prepaint Aluminium</td>
+			    	<td>0.4-2.3mm</td>
+			    	<td>100-1600mm</td>
+			  	</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$(".to").click(function(){
+		$(".first").fadeToggle();
+		$(".second").fadeToggle();
+	});
+    // $('#sc01').DataTable({
+    // 	searching: false,
+    // 	ordering:  false,
+    // 	responsive: true,
+    // 	"lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+    // });
+});
+</script>

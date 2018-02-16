@@ -1,7 +1,7 @@
 	<!--footer-->
 	<div class="welcome footer">
 		<div class="container">
-			<div class="col-md-4 footer-grid">
+			<div class="col-md-4 footer-grids">
 				<h3>Links</h3>
 				<p>Policy</p>
 				<p>Terms</p>

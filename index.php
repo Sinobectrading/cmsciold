@@ -76,7 +76,7 @@
 	<!-- PagePilling 3 -->	
 	<div class="section">
 		<div class="flexcenter fullheight" id="srvs">
-			<div class="col-lg-4 col-md-4  col-sm-12 welcome slideInLeft " id="ourservice"  data-wow-delay=".5s" >
+			<div class="col-lg-4 col-md-4  col-sm-12 welcome slideInLeft " id="whatwedo"  data-wow-delay=".5s" >
 				<div class="col-md-4">
 					<h4 class="wwd">What We do</h4>
 				</div>
@@ -85,7 +85,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-8 col-md-8  col-sm-12 welcome slideInRight "  data-wow-delay=".5s" >
+			<div class="col-lg-8 col-md-8  col-sm-12 welcome slideInRight"  data-wow-delay=".5s" >
 				<img src="images/stainless.jpg" alt=""/>
 			</div>
 		</div>
@@ -102,7 +102,7 @@
 			<div class=" welcome col-lg-8 col-md-8 col-sm-12 slideInLeft " data-wow-delay=".5s">
 				<img src="images/srv.jpg" alt=""/>
 			</div>
-			<div class=" welcome col-lg-4 col-md-4 col-sm-12  slideInRight " data-wow-delay=".5s">
+			<div class=" welcome col-lg-4 col-md-4 col-sm-12  slideInRight " data-wow-delay=".5s" id="ourservice">
 				<!-- <h5>03</h5> -->
 				<div class="col-md-4"><h4 class="os">Our Service</h4></div>
 				<div class="col-md-8">
@@ -127,7 +127,7 @@
 	<!-- PagePilling 5 : products -->	
 	<div class="section" id="hpart5">
 		<div class="fullheight">
-			<div class="flexcenter" id="services">
+			<div class="flexcenter" id="product">
 				<div class="col-md-6 col-xs-12 grid slideInLeft" data-wow-delay=".5s">
 					<a href="extrusion.php">
 						<figure class="effect-apollo">
@@ -227,7 +227,7 @@
 
 
 
-<div class="clearfix hidden-lg">
+<div class="clearfix hidden-lg" id="smalld">
 	<div id="home" class="banner homepage">
  		<div class="banner-info info">
 			<canvas id="nokey" class="hidden-xs hidden-sm">
@@ -260,10 +260,10 @@
 	<div class="welcome" id="home2">
 		<div class="row">
 				<div class="flexcenter" id="hpart1">
-				<div class="col-lg-7 col-md-6 col-sm-6 col-xs-12 wow slideInLeft animated welcome" data-wow-delay=".5s">
+				<div class="col-lg-7 col-md-6 col-sm-6 hidden-xs wow slideInLeft animated welcome" data-wow-delay=".5s">
 					<img src="images/office.jpg" alt=""/>
 				</div>
-				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome" data-wow-delay=".5s" >
+				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome decs" data-wow-delay=".5s" >
 					<!-- <h5>01</h5> -->
 					<div class="col-md-3"><h4 class="au">About Us</h4></div>
 					<div class="col-md-9"><p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
@@ -273,7 +273,7 @@
 			<div class="clearfix"> </div>
 
 			<div class="flexcenter" id="home3">
-				<div class="col-lg-5 col-md-6  col-sm-6 welcome wow slideInLeft animated" id="ourservice"  data-wow-delay=".5s" >
+				<div class="col-lg-5 col-md-6  col-sm-6 welcome wow slideInLeft animated decs" id="ourservice"  data-wow-delay=".5s" >
 					<div class="col-md-3">
 						<h4 class="wwd">What We do</h4>
 					</div>
@@ -282,7 +282,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-lg-7 col-md-6  col-sm-6 welcome wow slideInRight animated"  data-wow-delay=".5s" >
+				<div class="col-lg-7 col-md-6 col-sm-6 hidden-xs welcome wow slideInRight animated"  data-wow-delay=".5s" >
 					<img src="images/stainless.jpg" alt=""/>
 				</div>
 			</div>
@@ -291,10 +291,10 @@
 
 
 			<div class="flexcenter" id="home4">
-				<div class=" welcome col-lg-7 col-md-6 col-sm-6 wow slideInLeft animated" data-wow-delay=".5s">
+				<div class=" welcome col-lg-7 col-md-6 col-sm-6 hidden-xs wow slideInLeft animated" data-wow-delay=".5s">
 					<img src="images/srv.jpg" alt=""/>
 				</div>
-				<div class=" welcome col-lg-5 col-md-6 col-sm-6 wow slideInRight animated" data-wow-delay=".5s">
+				<div class=" welcome col-lg-5 col-md-6 col-sm-6 wow slideInRight animated decs" data-wow-delay=".5s">
 					<!-- <h5>03</h5> -->
 					<div class="col-md-4"><h4 class="os">Our Service</h4></div>
 					<div class="col-md-8">
@@ -313,7 +313,7 @@
 
 		 
 			<div class="flexcenter" id="home5">
-				<div class="col-md-6 col-xs-12 grid wow zoomIn animated slideInLeft" data-wow-delay=".5s">
+				<div class="col-md-6 hidden-xs hidden-sm grid wow zoomIn animated slideInLeft" data-wow-delay=".5s">
 					<a href="extrusion.php">
 						<figure class="effect-apollo">
 							<img src="images/product/1000_600_ex.jpg" alt="al"/>
@@ -326,13 +326,26 @@
 						</figure>
 					</a>
 				</div> 
-				<div class="col-md-6 col-xs-12 slideInRight welcome">
+				<div class="col-md-6 col-xs-12 slideInRight welcome decs" id="prodes">
 					<div class="col-md-3"><h4 class="au">Products</h4>
 					</div>
 					<div class="col-md-9">
 						<p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
 				    </div>
 				</div>
+				<div class="col-md-6 col-xs-12 visible-xs visible-sm grid wow zoomIn animated slideInLeft" data-wow-delay=".5s">
+					<a href="extrusion.php">
+						<figure class="effect-apollo">
+							<img src="images/product/1000_600_ex.jpg" alt="al"/>
+							<figcaption>
+								<div class="temp">
+									<h2>Aluminum&nbsp;<span>Extrusion</span></h2>
+									<p>● Standard Extrusion <br>● Customized Extrusuon</p>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+				</div> 
 			</div>
 			
 			<div class="flexcenter" id="hpart6">
@@ -371,12 +384,12 @@
 		<!--footer-->
 	<div class="welcome footer">
 		<div class="container">
-			<div class="col-md-4 footer-grid">
+			<div class="col-md-4 col-sm-12 col-xs-12 footer-grids">
 				<h3>Links</h3>
 				<p>Policy</p>
 				<p>Terms</p>
 			</div>
-			<div class="col-md-4 footer-grids">
+			<div class="col-md-4 col-sm-12 col-xs-12 footer-grids">
 				<h3>Contact Us</h3>
 				<p>18 Killaloe Road Unit 3<br>
 					Vaughan, ON, CAN L4K 2P2<br>
@@ -384,7 +397,7 @@
 					Support to : <a href="mailto:contact@cmsci.ca">contact@cmsci.ca</a>
 				</p>
 			</div>
-			<div class="col-md-4 footer-grids">
+			<div class="col-md-4 col-sm-12 col-xs-12 footer-grids">
 				<h3>Brochure</h3>
 				<form>
 					<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">

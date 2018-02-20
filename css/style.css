@@ -81,7 +81,10 @@ body a:hover{
 .services-info > div {
     padding: 0px;
 }
-
+.panel-default li {
+    list-style: none;
+    cursor: pointer;
+}
 
 /*fadein*/
 @-webkit-keyframes blurFadeInOut{
@@ -375,29 +378,6 @@ a.navbar-brand img {
     width: auto;
 }
 
-@media (max-width: 768px) {
-    .welcome.footer {
-        display: block;
-        height: auto;
-    }
-    #home5 h4 {
-        text-align: left;
-        font-size: 1.8em;
-    }
-    a.navbar-brand {
-        padding-top: 10px;
-    }
-    a.navbar-brand img {
-        width: auto;
-        height: 30px;
-    }
-    div#smalld div.decs,
-    div#smalld div#ourservice  {
-        height: 290px
-    }
-
-}
-
 .navbar-toggle {
     margin-top: 13px;
     margin-bottom: 13px;
@@ -673,10 +653,29 @@ ul.nav.navbar {
     font-size: 1.1em;
     font-weight: bold
 }
+div.panel-group h5 {
+    font-size: 1.2em;
+    font-weight: 900
+}
+#cnt table {
+    width: 100% ! important;
+}
+#work div.container div.work-info,
+#platesheet div.container div.work-info,
+#steel div.container div.work-info {
+    padding-top: 2em
+}
+h6.panel-title li {
+    line-height: 2.4em;
+}
+h6.panel-title li a {
+    font-size: 0.85em;
+    color: #333;
+}
 #work .desp {
     padding-top: 0px;
     padding-bottom: 10px;
-    line-height: 1.5em
+    line-height: 1.5em;
 }
 .tab-pane table {
     width: 100% ! important
@@ -874,7 +873,6 @@ h3.title,h2.title{
 .panel-default {
     border: 0px;
     border-color: transparent;
-    padding-top: 15px
 }
 h6.panel-title > a {
     font-size: 0.85em;
@@ -1537,6 +1535,12 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
 }
 .footer p a:hover{
     color: #647b77;
+}
+.footer .container > div {
+    padding-top: 2em
+}
+#contactpage .footer {
+    height: auto
 }
 .footer input[type="text"] {
     outline: none;
@@ -2431,6 +2435,46 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
 }
 
 @media(max-width:767px){
+    .footer-copy {
+        height: 60px;
+    }
+    .contact .container h3 {
+        padding-top: 10px;
+    }
+    .welcome.footer {
+        display: block;
+        height: auto;
+    }
+    #home5 h4 {
+        text-align: left;
+        font-size: 1.8em;
+    }
+    a.navbar-brand {
+        padding-top: 10px;
+    }
+    a.navbar-brand img {
+        width: auto;
+        height: 50px;
+        padding-top: 5px
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background: transparent;
+    }
+    div#smalld div.decs,
+    div#smalld div#ourservice  {
+        height: 290px
+    }
+
+    .navbar-brand {
+        height: 80px
+    }
     #pp-nav {
         display: none;
     }
@@ -2441,7 +2485,7 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
         padding: 0.2em 0;
     }
     .navbar-default .navbar-toggle .icon-bar {
-         background-color: #333
+         background-color: #fff
     }
     .navbar {
         position: relative;
@@ -2456,10 +2500,10 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
         float: right;
         display: block;
         width: 70px;
-        height: 70px;
+        height: 80px;
         margin: 0;
     }
-    #work.work  {
+    #work.work, #platesheet.work , #steel.work   {
         margin-top: 1em;
      }
     .top-nav ul li {
@@ -2485,7 +2529,9 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
         padding-left: 6.7vw ! important
     }
     #work .container,
-    #contact .container  {
+    #contact .container,
+    #platesheet .container,
+    #steel .container  {
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
@@ -2891,7 +2937,7 @@ box-shadow: 5px 5px 18px -4px rgba(64,64,64,1);
         margin-top: 0.7em;
     }
     .work-grids {
-        width: 75%;
+        width: 100%;
     }
     .welcome.work h4 {
         font-size: 1.8em;

@@ -5,12 +5,12 @@
 </style>
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Picket Extrusion</h4>
 		<div class="clearfix">
 			<div class="col-md-12"><img src="images/product/picket_1920_785_01.jpg" alt=""></div>
 <!-- 			<div class="col-md-6"><img src="images/product/960_785_18.jpg" alt=""></div>
  -->	</div>
 		<div class="desp">
-			<h4>Picket Extrusion</h4>
 			<p class="profile">Description</p>
 			 Aluminum Fence has simple, clean lines allow for a vast range of applications, including prestige and high security settings. From schools, to medical facilities, to sports and leisure complexes, to industrial buildings and military bases,  
 		</div>
@@ -262,8 +262,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#picket01').DataTable({
     	searching: false,

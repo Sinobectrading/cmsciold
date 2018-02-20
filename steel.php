@@ -37,9 +37,6 @@
 	padding-top: 40px;
 	padding-bottom: 0px;
 }
-#work{
-
-}
 .has-children ul li {
 	min-height: 20px
 }
@@ -47,39 +44,52 @@
 </head>
 <body>
 <!--banner-->
-<div  id="home">
+<div  id="phome">
 	<?php include('includes/nav.php'); ?>
 </div>
 <!--//banner-->
 
 <!--work-->
-<div class="welcome work" id="work">
+<div class="welcome work" id="steel">
 	<div class="container">
 		<div class="work-info">
-			<div class="col-md-12 work-grids work-grd1 wow slideInLeft animated" data-wow-delay=".5s">
-				<!-- <h3 class="title"><a href="alumnium.php">Steel</a></h3> -->	 
-			</div>
-
-			<div class="col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
+			<div class="row col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
 				 <main class="cd-main-content">
-					<nav class="cd-side-nav">
-						<ul id="product">
-							<li class="cd-label">Steel</li>
-  							<li class="comments">
-								<a class="ajaxcnt">Stainless Steel</a>
- 							</li>
 
- 							<li class="comments">
-								<a class="ajaxcnt">Galvanized Steel</a>
- 							</li>
+				 	<div class="panel-group col-md-3">
+				 		<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h5 class="panel-title">
+				                   Steels
+				                </h5>
+				            </div>
+				        </div>
 
- 							<li class="comments">
-								<a class="ajaxcnt">Carbon Steel</a>
- 							</li>
-						</ul>
-					</nav>
+				        <div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h6 class="panel-title">
+				                    <li><a class="ajaxcnt">Stainless Steel</a></li> 
+				                </h6>
+				            </div>
+						</div>
 
-					<div class="content-wrapper" id="cnt">
+						<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h6 class="panel-title">
+				                    <li><a class="ajaxcnt">Galvanized Steel</a></li> 
+				                </h6>
+				            </div>
+						</div>
+
+						<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h6 class="panel-title">
+				                    <li><a class="ajaxcnt">Carbon Steel</a></li> 
+				                </h6>
+				            </div>
+						</div>
+					</div>
+					<div class="col-md-9" id="cnt">
 						<!-- <h1>Summary</h1> -->
 						<div class="col-md-6">
 							<img src="images/product/998_898_st01.jpg" alt="">
@@ -94,16 +104,15 @@
 							<img src="images/product/998_898_st05.jpg" alt="">
 						</div>
 					</div> <!-- .content-wrapper -->
-				</main> <!-- .cd-main-content -->
+ 				</main> <!-- .cd-main-content -->
 			</div>
 			
-			 
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer2.php'); ?>
 <script src="js/jquery.menu-aim.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script>

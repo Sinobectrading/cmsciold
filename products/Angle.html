@@ -15,20 +15,20 @@
 </style>
 <div class="col-md-12 ajaxcontent">
     <div class="first">
-    	<div class="clearfix">
-          <div class="col-md-6"><img src="images/product/angle_960_785_01.jpg" alt=""></div>
-          <div class="col-md-6"><img src="images/product/angle_960_785_02.jpg" alt=""></div>
-      </div>
-        <div class="desp">
-        	<h4>Aluminum Angle Extrusion</h4>
-        	<p class="profile">Description</p>
-        	<p><span>
-        		Angle has rounded corners and is generally used for structural applications where strength is important. 
-                Angle has sharp corners and is generally used where surface finish is more important than strength. 
-        		</span>
-        	</p>
-        </div>
-        <button type="button" class="to btn btn-default">View Profile</button>
+          <h4>Aluminum Angle Extrusion</h4>
+         	<div class="clearfix">
+               <div class="col-md-12"><img src="images/product/1920_1080_angle001.jpg" alt=""></div>
+<!--                <div class="col-md-6"><img src="images/product/angle_960_785_02.jpg" alt=""></div>
+ -->          </div>
+          <div class="desp">
+             	<p class="profile">Description</p>
+             	<p><span>
+             		Angle has rounded corners and is generally used for structural applications where strength is important. 
+                     Angle has sharp corners and is generally used where surface finish is more important than strength. 
+             		</span>
+             	</p>
+          </div>
+          <button type="button" class="to btn btn-default">View Profile</button>
     </div>
 
 	<div class="second">
@@ -898,8 +898,8 @@
 <script>
 $(document).ready(function(){
     $(".to").click(function(){
-        $(".first").fadeToggle();
-        $(".second").fadeToggle();
+      $(".first").toggle(0);
+      $(".second").toggle(0);
     });
     $('#ang1').DataTable({
         searching: false,

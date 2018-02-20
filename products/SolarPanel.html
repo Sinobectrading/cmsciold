@@ -5,12 +5,12 @@
 </style>
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Solar Panel</h4>
 		<div class="clearfix">
 			<div class="col-md-6"><img src="images/product/960_785_13.jpg" alt=""></div>
 			<div class="col-md-6"><img src="images/product/960_785_14.jpg" alt=""></div>
 		</div>
 		<div class="desp">
-			<h4>Solar Panel</h4>
 			<p class="profile">Description</p>
 			Along with an aluminum solar panel frame are other solar panel components that can be used in conjunction with the aluminum solar frames and solar panel parts. These may be to hold the frame in the location required along with the supporting structure components. A Solar Panel Part and Solar Panel Component are at the core of what we produce for the Solar Industry. Other component parts we make for a different customer end use are roll formed reflector shapes and troughs. 
 		</div>
@@ -37,8 +37,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     // $('#solar01').DataTable({
     // 	searching: false,

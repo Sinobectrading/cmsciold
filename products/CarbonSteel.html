@@ -1,5 +1,6 @@
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Carbon Steel</h4>
 		<img src="images/product/1920_785_Carbon.jpg" alt="">
 		<div class="desp">
 			<p class="profile">Description</p>
@@ -35,8 +36,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#carbon').DataTable({
     	searching: false,

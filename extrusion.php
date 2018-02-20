@@ -32,7 +32,7 @@
 #cnt div h4 {
 	font-size: 19px;
 	font-weight: 700;
-	padding-top: 20px;
+	padding-top: 10px;
 	color: #787878;
 }
 #cnt h1 {
@@ -60,8 +60,8 @@
 		<div class="work-info">
 			<div class="row col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
 				 <main class="cd-main-content">
- 
-						<div class="panel-group col-md-4" id="accordion">
+						<div class="panel-group col-md-3" id="accordion">
+
 					        <div class="panel panel-default">
 					            <div class="panel-heading">
 					                <h5 class="panel-title">
@@ -75,7 +75,7 @@
 					                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Standard Extrusion&nbsp;<span class="glyphicon glyphicon-plus"></span></a>
 					                </h6>
 					            </div>
-					            <div id="collapseTwo" class="panel-collapse collapse in">
+					            <div id="collapseTwo" class="panel-collapse collapse">
 					                <div class="panel-body">
 					                	<ul>
 					                		<li><a class="ajaxcnt" id="tube">Tube</a></li>
@@ -105,6 +105,7 @@
 					                </div>
 					            </div>
 					        </div>
+					        
 					    </div>
 
 
@@ -131,18 +132,18 @@
 							</li>
 						</ul> -->
  
- 					<div class="col-md-8" id="cnt">
+ 					<div class="col-md-9" id="cnt">
  						<div class="col-md-6">
-							<img src="images/product/001.jpg" alt="">
+							<img src="images/product/998_898_ex01.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/002.jpg" alt="">
+							<img src="images/product/998_898_ex02.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/003.jpg" alt="">
+							<img src="images/product/998_898_ex03.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/004.jpg" alt="">
+							<img src="images/product/998_898_ex06.jpg" alt="">
 						</div>
 					</div>  
 				</main> 
@@ -155,7 +156,7 @@
 	</div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer2.php'); ?>
 <script src="js/jquery.menu-aim.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script>

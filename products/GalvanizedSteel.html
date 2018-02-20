@@ -1,8 +1,8 @@
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Galvanized Steel</h4>
 		<img src="images/product/1920_785_Galvanized.jpg" alt="">
 		<div class="desp"> 
-			<h4>Galvanized Steel</h4>
 			<p class="profile">Description</p>
 			Galvanization is the process of applying a protective coating to steel or iron. The coating is made from zinc and is used to halt the formation of rust. Galvanization is important because it provides long-lasting protection for steel and iron products.
 		</div>
@@ -40,8 +40,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#galvanized').DataTable({
     	searching: false,

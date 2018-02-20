@@ -15,7 +15,7 @@
 				</p>
 			</div>
 			<div class="col-md-4 footer-grids">
-				<h3>Brochure</h3>
+				<h3>Request Brochure</h3>
 				<form>
 					<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
 					<input type="submit" value="Download">
@@ -23,7 +23,7 @@
 			</div>
 			<div class="clearfix"> </div>
 			<div class="footer-copy">
-				<p>© 2016 CMSCI. All rights reserved | Design by <a href="http://www.cmsci.ca">CMSCI</a></p>
+				<p>© 2018 CMSCI. All rights reserved | Design by <a href="http://www.cmsci.ca">CMSCI</a></p>
 			</div>
 		</div>
 	</div>

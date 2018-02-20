@@ -1,8 +1,8 @@
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Stainless Steel</h4>
 		<img src="images/product/1920_785.jpg" alt="">
 		<div class="desp">
-			<h4>Stainless Steel</h4>
 			<p class="profile">Description</p>
 			Stainless steel are widely used in petroleum, chemical enterprise, superheater of boiler, heat exchanger, medical care, power station, transportation, construction and ornament, decoration, machinery furniture, automobile, industry instrument, agriculture, kitchenware, etc ...
 		</div>
@@ -709,8 +709,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#stainless').DataTable({
     	searching: false,

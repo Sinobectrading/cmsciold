@@ -5,12 +5,12 @@
 </style>
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>POST Extrusion</h4>
 		<div class="clearfix">
 			<div class="col-md-6"><img src="images/product/960_785_19.jpg" alt=""></div>
 			<div class="col-md-6"><img src="images/product/960_785_15.jpg" alt=""></div>
 		</div>
 		<div class="desp">
-			<h4>POST Extrusion</h4>
 			<p class="profile">Description</p>
 			Linear lengths of all posts, sign frames, and mounting extrusions are available with standard off-the-shelf pre-finish white, however, custom colors and extrusions cut to your specified sizes are available. Post extrusions are available in square, radius, round, and a variety of other shapes. 
 		</div>
@@ -120,8 +120,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#post01').DataTable({
     	searching: false,

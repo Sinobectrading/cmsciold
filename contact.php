@@ -27,7 +27,7 @@
 </head>
 <body>
 	<!--banner-->
-	<div  id="home">
+	<div  id="contactpage">
 		<?php include('includes/nav.php'); ?>
 	</div>
 	<!--//banner-->

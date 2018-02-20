@@ -50,54 +50,52 @@
 </head>
 <body>
 <!--banner-->
-<div  id="home">
+<div  id="phome">
 	<?php include('includes/nav.php'); ?>
 </div>
 <!--//banner-->
 
 <!--work-->
-<div class="welcome work" id="work">
+<div class="welcome work" id="platesheet">
 	<div class="container">
 		<div class="work-info">
 			<div class="row col-md-12 work-grids wow fadeIn animated" data-wow-delay=".5s">
 				 <main class="cd-main-content">
-					<nav class="cd-side-nav">
-						<ul id="product">
- 							<li class="cd-label">Plates & Sheets</li>
- 							<li class="comments">
-								<a class="ajaxcnt">Sheets & Coils</a>
- 							</li>
-  							<!-- <li class="comments">
-								<a class="ajaxcnt">Alloy 2XXX</a>
-							</li> -->
-							<li class="comments">
-								<a class="ajaxcnt">Tread Plates</a>
-							</li>
-							<!-- <li class="comments">
-								<a class="ajaxcnt">Composite Panel</a>
-							</li> -->
-							<li class="comments">
-								<a class="ajaxcnt">Painted Coils</a>
-							</li>
-							<!-- <li class="comments">
-								<a class="ajaxcnt">Alloy 6xxx</a>
-							</li>
-							<li class="comments">
-								<a class="ajaxcnt">Alloy 7xxx</a>
-							</li> -->
-							<!-- <li class="has-children comments">
-								<a class="ajaxcnt">Alloy 8XXX</a>
-							</li> -->
-							<!-- <li class="comments">
-								<a class="ajaxcnt">Painted Coil</a>
-							</li> -->
-							<!-- <li class="has-children comments">
-								<a class="ajaxcnt">Cold Rolled Coil</a>
-							</li> -->
-						</ul>
-					</nav>
+					<div class="panel-group col-md-3">
+						<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h5 class="panel-title">
+				                   Plates & Sheets
+				                </h5>
+				            </div>
+				        </div>
 
-					<div class="content-wrapper" id="cnt">
+						<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h6 class="panel-title">
+				                    <li><a class="ajaxcnt">Sheets & Coils</a></li> 
+				                </h6>
+				            </div>
+						</div>
+
+						<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h6 class="panel-title">
+				                    <li><a class="ajaxcnt">Tread Plates</a></li> 
+				                </h6>
+				            </div>
+						</div>
+
+						<div class="panel panel-default">
+				            <div class="panel-heading">
+				                <h6 class="panel-title">
+				                    <li><a class="ajaxcnt">Painted Coils</a></li> 
+				                </h6>
+				            </div>
+						</div>
+					</div>
+						
+					<div class="col-md-9" id="cnt">
 						<!-- <h1>Summary</h1> -->
 						<div class="col-md-6">
 							<img src="images/product/998_898_ps01.jpg" alt="">
@@ -121,7 +119,7 @@
 	</div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer2.php'); ?>
 <script src="js/jquery.menu-aim.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script>

@@ -266,7 +266,7 @@
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 wow slideInRight animated welcome decs" data-wow-delay=".5s" >
 					<!-- <h5>01</h5> -->
 					<div class="col-md-3"><h4 class="au">About Us</h4></div>
-					<div class="col-md-9"><p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide extruders.</p>
+					<div class="col-md-9"><p>Established in 2015, Canadian Metal Service Centre Inc.’s (CMSCI) mission is to offer high quality aluminum extruded products, diverse and tailored to clients’ needs and applications. It supplies products from domestic and worldwide distributors.</p>
 				    </div>
 				</div>
 			</div>

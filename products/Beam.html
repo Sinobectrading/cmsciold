@@ -15,10 +15,10 @@
 </style>
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Aluminum Beam Round Corner</h4>
 		<img src="images/product/1080_beam01.jpg" alt="">
 		<div class="desp">
-			<h4>Aluminum Beam Round Corner</h4>
-			<p class="profile">Description</p>
+ 			<p class="profile">Description</p>
 			<p><span>
 				Aluminum Beams are commonly used for structural applications. Aluminum 6061-T6 has above average corrosion resistance, good machinability, and is excellent for welding.  
 				</span>
@@ -147,8 +147,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#beam1').DataTable({
     	searching: false,

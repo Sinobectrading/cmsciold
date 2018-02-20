@@ -18,9 +18,9 @@
 </style>
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
-		<img src="images/product/1080_pipe02.jpg" alt="">
+		<h4>Aluminum Pipe Extrusion</h4>
+		<img src="images/product/pipe001.jpg" alt="">
 		<div class="desp">
-			<h4>Aluminum Pipe Extrusion</h4>
 			<p class="profile">Description</p>
 			<p><span>
 				Aluminum Pipe is available in alloys 6061-T6, 6063-T52 and 6101-T61. Aluminum pipe is lightweight and offers good corrosion resistance, making it popular for outdoor railings, shelving and framing.  
@@ -337,8 +337,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#pipe1').DataTable({
     	searching: false,

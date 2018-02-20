@@ -1,12 +1,12 @@
 
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Aluminum Treat & Plates</h4>
 		<div class="clearfix">
 			<div class="col-md-6"><img src="images/product/960_785_ts01.jpg" alt=""></div>
 			<div class="col-md-6"><img src="images/product/960_785_ts02.jpg" alt=""></div>
 		</div>
 		<div class="desp">
-			<h4>Aluminum Treat & Plates</h4>
 			<p class="profile">Description</p>
 			Aluminum Tread Plate adds slip resistance and durability to work areas, with strong corrosion resistance and good formability(show different pattern here, big diamond, small diamond, 5 bars)
 		</div>
@@ -35,8 +35,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#trp').DataTable({
     	searching: false,

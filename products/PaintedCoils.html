@@ -1,12 +1,11 @@
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Aluminum Painted Coil</h4>
 		<div class="clearfix">
 			<div class="col-md-6"><img src="images/product/960_785_11.jpg" alt=""></div>
 			<div class="col-md-6"><img src="images/product/960_785_12.jpg" alt=""></div>
 		</div>
-		
 		<div class="desp">
-			<h4>Aluminum Painted Coil</h4>
 			<p class="profile">Description</p>
 			Coil coating is a continuous, automated process for coating metal before fabrication into end products. The steel or aluminum substrate is delivered in coil form from the rolling mills. The metal coil is positioned at the beginning of the coating line, and in one continuous process, the coil is unwound, pre-cleaned, pre-treated, pre-primed, and preprinted before being recoiled on the other end and packaged for shipment. 
 		</div>
@@ -285,8 +284,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#pc').DataTable({
     	searching: false,

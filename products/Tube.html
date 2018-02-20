@@ -15,12 +15,12 @@
 </style>
 <div class="col-md-12 ajaxcontent">
 	<div class="first">
+		<h4>Aluminum Tube Extrusion</h4>
 		<div class="clearfix">
           <div class="col-md-6"><img src="images/product/1080_tube01.jpg" alt=""></div>
           <div class="col-md-6"><img src="images/product/1080_tube02.jpg" alt=""></div>
       	</div>
 		<div class="desp">
-			<h4>Aluminum Tube Extrusion</h4>
 			<p class="profile">Description</p>
 			<p><span>
 				Aluminum Round Tubes are available in alloys 6061, 6063 and 2024. Aluminum 6061 is the most widely used alloy, offering better corrosion resistance and weldability than other Aluminum Round Tube, but less strength. Alloy 6063 offers high corrosion resistance and is commonly used for outdoor structural applications such as Aluminum Tube railings and trims. Aluminum Round Tube 2024 is high-strength and commonly used in aerospace applications.
@@ -766,8 +766,8 @@
 <script>
 $(document).ready(function(){
 	$(".to").click(function(){
-		$(".first").fadeToggle();
-		$(".second").fadeToggle();
+		$(".first").toggle(0);
+		$(".second").toggle(0);
 	});
     $('#tubet').DataTable({
     	searching: false,

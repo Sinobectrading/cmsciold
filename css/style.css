@@ -40,6 +40,9 @@ body a:hover{
         url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
         url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
 }
+.ajaxcontent > h4 {
+    /*padding-top: 20px*/
+}
 .ajaxcnt {
         display: inline-block;
         width: 100%
@@ -85,7 +88,16 @@ body a:hover{
     list-style: none;
     cursor: pointer;
 }
-
+.tab-pane div img {
+    padding: 6em
+}
+.tab-pane div  p {
+    padding-top:  3em
+}
+#cnt div.protop {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em
+}
 /*fadein*/
 @-webkit-keyframes blurFadeInOut{
     0%{

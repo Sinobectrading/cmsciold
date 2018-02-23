@@ -75,7 +75,7 @@
 					                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Standard Extrusion&nbsp;<span class="glyphicon glyphicon-plus"></span></a>
 					                </h6>
 					            </div>
-					            <div id="collapseTwo" class="panel-collapse collapse">
+					            <div id="collapseTwo" class="panel-collapse collapse in">
 					                <div class="panel-body">
 					                	<ul>
 					                		<li><a class="ajaxcnt" id="tube">Tube</a></li>
@@ -137,13 +137,13 @@
 							<img src="images/product/998_898_ex01.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/998_898_ex02.jpg" alt="">
-						</div>
-						<div class="col-md-6">
 							<img src="images/product/998_898_ex03.jpg" alt="">
 						</div>
 						<div class="col-md-6">
-							<img src="images/product/998_898_ex06.jpg" alt="">
+							<img src="images/product/cosutmized004.jpg" alt="">
+						</div>
+						<div class="col-md-6">
+							<img src="images/product/painted004.jpg" alt="">
 						</div>
 					</div>  
 				</main> 

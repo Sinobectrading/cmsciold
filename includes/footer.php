@@ -9,7 +9,7 @@
 			<div class="col-md-4 footer-grids">
 				<h3>Contact Us</h3>
 				<p>18 Killaloe Road Unit 3<br>
-					Vaughan, ON, CAN L4K 2P2<br>
+					Vaughan, ON, CANADA, L4K 2P2<br>
 					Office : +1 (905) 660-4488<br>
 					Support to : <a href="mailto:contact@cmsci.ca">contact@cmsci.ca</a>
 				</p>
